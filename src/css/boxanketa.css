@@ -1,0 +1,186 @@
+.p-t-100 {
+  padding-top: 100px;
+}
+
+.hover_icon:hover {
+  background: #0360B2;
+  opacity: .9;
+box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
+text-align: center;
+}
+
+.p-t-119 {
+  padding-top: 119px;
+}
+
+.h-100{
+  height: 100%;
+}
+
+.hover_icon .complex_service_anketa::before {
+  content: url('../../public/complex_service_anketa.svg');
+}
+
+.hover_icon:hover .complex_service_anketa::before {
+  content: url('../../public/complex_of_services_white.svg');
+}
+
+.hover_icon .design_anketa::before {
+  content: url('../../public/design_anketa.svg');
+}
+.hover_icon:hover .design_anketa::before {
+  content: url('../../public/design_anketa_white.svg');
+}
+
+.hover_icon .web_development_anketa::before {
+  content: url('../../public/web_development_anketa.svg');
+}
+
+.hover_icon:hover .web_development_anketa::before {
+  content: url('../../public/web_development_anketa_white.svg');
+}
+
+.hover_icon .mobile_development_anketa::before {
+  content: url('../../public/mobile_development_anketa.svg');
+}
+
+.hover_icon:hover .mobile_development_anketa::before {
+  content: url('../../public/mobile_development_anketa_white.svg');
+}
+
+
+.hover_icon .other_anketa::before {
+  content: url('../../public/other_anketa.svg');
+}
+
+.hover_icon:hover .other_anketa::before {
+  content: url('../../public/other_anketa_white.svg');
+}
+
+.hover_icon .xs::before {
+  content: url('../../public/xs.svg');
+}
+
+.hover_icon:hover .xs::before {
+  content: url('../../public/xs_white.svg');
+}
+
+.hover_icon .s::before {
+  content: url('../../public/s.svg');
+}
+
+.hover_icon:hover .s::before {
+  content: url('../../public/s_white.svg');
+}
+
+.hover_icon .m::before {
+  content: url('../../public/m.svg');
+}
+
+.hover_icon:hover .m::before {
+  content: url('../../public/m_white.svg');
+}
+
+.hover_icon .l::before {
+  content: url('../../public/l.svg');
+}
+
+.hover_icon:hover .l::before {
+  content: url('../../public/l_white.svg');
+}
+
+.hover_icon .xl::before {
+  content: url('../../public/xl.svg');
+}
+
+.hover_icon:hover .xl::before {
+  content: url('../../public/xl_white.svg');
+}
+
+.hover_icon .less_mon::before {
+  content: url('../../public/less_mon.svg');
+}
+
+.hover_icon:hover .less_mon::before {
+  content: url('../../public/less_mon_white.svg');
+}
+
+.hover_icon .m_1_2_mon::before {
+  content: url('../../public/1_2_mon.svg');
+}
+
+.hover_icon:hover .m_1_2_mon::before {
+  content: url('../../public/1_2_mon_white.svg');
+}
+
+.hover_icon .m_2_4_mon::before {
+  content: url('../../public/2_4_mon.svg');
+}
+
+.hover_icon:hover .m_2_4_mon::before {
+  content: url('../../public/2_4_mon_white.svg');
+}
+
+.hover_icon .m_4_6_mon::before {
+  content: url('../../public/4_6_mon.svg');
+}
+
+.hover_icon:hover .m_4_6_mon::before {
+  content: url('../../public/4_6_mon_white.svg');
+}
+
+.hover_icon .more_6_mon::before {
+  content: url('../../public/more_6_mon.svg');
+}
+
+.hover_icon:hover .more_6_mon::before {
+  content: url('../../public/more_6_mon_white.svg');
+}
+
+.hover_icon .less_1k::before {
+  content: url('../../public/less_1k.svg');
+}
+
+.hover_icon:hover .less_1k::before {
+  content: url('../../public/less_1k_white.svg');
+}
+
+
+.hover_icon .d_1_3k::before {
+  content: url('../../public/1_3k.svg');
+}
+
+.hover_icon:hover .d_1_3k::before {
+  content: url('../../public/1_3k_white.svg');
+}
+
+
+.hover_icon .d_3_6k::before {
+  content: url('../../public/3_6k.svg');
+}
+
+.hover_icon:hover .d_3_6k::before {
+  content: url('../../public/3_6k_white.svg');
+}
+
+.hover_icon .d_6_10k::before {
+  content: url('../../public/6_10k.svg');
+}
+
+.hover_icon:hover .d_6_10k::before {
+  content: url('../../public/6_10k_white.svg');
+}
+
+.hover_icon .more_10k::before {
+  content: url('../../public/more_10k.svg');
+}
+
+.hover_icon:hover .more_10k::before {
+  content: url('../../public/more_10k_white.svg');
+}
+
+
+
+.n-r {
+  margin-right: none !important;
+}

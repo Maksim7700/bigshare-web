@@ -1,0 +1,133 @@
+
+.header__info {
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 72px;
+    color: white;
+    font-weight: 700;
+}
+
+.gilroy{
+    font-family: 'Gilroy-Light', sans-serif;
+}
+
+.header__second_info {
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 72px;
+    color: #1A9D63;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+
+.header__third_info {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #F8F8F8;
+    padding-top: 40px;
+    line-height: 30px;
+    font-weight: 500;
+    width: 734px;
+}
+
+.header__third_info p{
+line-height: 0px;
+}
+
+.head {
+    padding-top: 319px;
+    display: block;
+    height: 100%;
+}
+
+.btn__body {
+    padding-top: 59px;
+}
+
+.btn__started {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #858A90;
+    height: 48px;
+    width: 170px;
+    padding: 11px 15px 11px 15px;
+}
+
+
+
+.icon__mouser {
+    padding-top: 201px;
+    color: white;
+}
+
+.text__scroll {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.line__rectangle {
+    padding-left: 28px;
+    padding-top: 8px;
+}
+.fs-16{
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+.get__started{
+    padding: 3px 7px 0 8px;
+}
+
+@media (max-width: 1370px) and (min-width: 300px){
+    .head {
+        padding-top: 80px;
+        display: block;
+        height: 100%;
+        text-align: start;
+    }
+
+    .header__info {
+        font-size: 36px;
+        line-height: 48px !important;
+        letter-spacing: 0px !important;
+    }
+
+    .header__second_info {
+        font-size: 36px;
+        padding-top: 0px;
+        line-height: 48px !important;
+        letter-spacing: 0px !important;
+    }
+
+    .header__third_info {
+        font-size: 16px;
+        line-height: 30px;
+        width: 100%;
+        padding-top: 16px;
+    }
+
+    .btn__started {
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .btn__body {
+        padding-top: 24px;
+    }
+
+    .text__button {
+        justify-content: center;
+    }
+
+    .icon__mouser {
+        display: none !important;
+    }
+
+    .line__line {
+        display: none !important;
+    }
+
+}

@@ -1,0 +1,6 @@
+
+export const TechnologiesActions = {
+  ACTIVATE_DESIGN: 'ACTIVATE_DESIGN',
+  ACTIVATE_MOBILE: 'ACTIVATE_MOBILE',
+  ACTIVATE_WEB: 'ACTIVATE_WEB'
+}

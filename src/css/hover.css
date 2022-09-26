@@ -1,0 +1,89 @@
+
+/* menu */
+.nav__button:hover {
+  cursor: pointer;
+  background-color: #0360B2;
+  border: 1px solid #0360B2;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
+}
+
+/* hero */
+
+.btn__started:hover {
+  cursor: pointer;
+  background-color: #0360B2;
+  border: 1px solid #0360B2;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25);
+}
+
+/* service */
+.middle_block:hover {
+  cursor: pointer;
+  background: #F8FBFF;
+  box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
+}
+
+.double__middle_block:hover {
+  cursor: pointer;
+  background: #F8FBFF;
+  box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
+}
+
+.double__middle_block__2:hover{
+  cursor: pointer;
+  background: #F8FBFF;
+  box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
+}
+
+.e-h:hover{
+  cursor: pointer;
+  border: 1px solid rgba(3, 96, 178, 0.25) !important;
+  background: linear-gradient(0deg, #0360B2, #0360B2), #101A24 !important;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.25) !important;
+  color: white;
+}
+
+.comment__button__next:hover {
+  cursor: pointer;
+  background: #0360B2;
+}
+
+.projects__project:hover {
+  cursor: pointer;
+  background: #F8FBFF;
+box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
+}
+
+.back-non:hover{
+  cursor: pointer;
+  background: #0360B2;
+  color: white !important;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
+}
+
+.back-non:hover span {
+  cursor: pointer;
+  color: white !important;
+}
+
+.back-non:hover text{
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  background: url('../../public/star-add-project-white.svg') no-repeat;
+}
+
+.blog_:hover {
+  cursor: pointer;
+  background-color: #0360B2;
+  box-shadow: 0px 10px 25px rgba(3, 96, 178, 0.47);
+}
+
+.block:hover {
+  cursor: pointer;
+  background: #061019;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.32);
+}
+
+
+

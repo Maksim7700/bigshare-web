@@ -1,0 +1,149 @@
+import '../../css/main.css';
+import '../../css/anketa.css';
+import '../../css/hover.css';
+
+import React from 'react';
+import Container from '../../UI/Container'
+import BoxAnketa from './BoxAnketa';
+import { useDispatch, useSelector } from 'react-redux';
+import { isBudget, isFormDetails, isService, isSize, isTime, finishForm } from '../reducers/anketaReducer';
+import { budgetF, formDetailsF, serviceF, sizeF, timeF } from '../reducers/formReducer';
+import { useForm } from 'react-hook-form';
+
+
+const Anketa = () => {
+  const dispatch = useDispatch();
+  const service = useSelector((state) => state.anketa.isService)
+  const size = useSelector((state) => state.anketa.isSize)
+  const time = useSelector((state) => state.anketa.isTime)
+  const budget = useSelector((state) => state.anketa.isBudget)
+  const formDetails = useSelector((state) => state.anketa.isFormDetails)
+  const finishFormValue = useSelector((state) => state.anketa.isFinishForm)
+  //const form = useSelector((state) => state.formDetails)
+
+
+
+  const { register, handleSubmit, formState: { errors } } = useForm();
+  const onSubmit = (data) => {
+    dispatch(formDetailsF(data));
+    dispatch(finishForm());
+  }
+
+  const getNextPage = () => {
+    if (service) {
+      dispatch(isSize());
+    } else if (size) {
+      dispatch(isTime());
+    } else if (time) {
+      dispatch(isBudget());
+    } else if (budget) {
+      dispatch(isFormDetails());
+    }
+  }
+
+  const getPreviousPage = () => {
+    if (size) {
+      dispatch(isService());
+    } else if (time) {
+      dispatch(isSize());
+    } else if (budget) {
+      dispatch(isTime());
+    } else if (formDetails) {
+      dispatch(isBudget())
+    }
+  }
+
+  const getNamePage = (value) => {
+    if (service) {
+      dispatch(serviceF(value));
+    } else if (size) {
+      dispatch(sizeF(value));
+    } else if (time) {
+      dispatch(timeF(value));
+    } else if (budget) {
+      dispatch(budgetF(value));
+    } else {
+      dispatch(formDetailsF(value));
+    }
+  }
+
+  const boxClick = (value) => {
+    getNamePage(value);
+    getNextPage();
+  }
+
+  const backClick = () => {
+    getPreviousPage();
+  }
+
+  return (
+    <Container>
+      <div className='paddint-top-200 padding-bottom-24 f-w-700 gilroy l-h-72 f-s-56 center'><span>Let's </span><span className='big-share-color'>get started</span><span>. Tell us how we can help</span></div>
+      <div className='text-anketa l-h-24 em-05 montserrat f-w-400 fs-16 center'>Let’s turn your idea into digital reality! Just answer our interactive questions and we will draft the best product offer for you. We provide free estimation and IT consulting for our clients. So don’t hesitate to contact us.</div>
+      <div className='view l-h-24 f-w-500 color-service'>
+        {service && <p>What service are you interested in?</p>}
+        {size && <p>How big is your project?</p>}
+        {time && <p>How much time do you have for a development?</p>}
+        {budget && <p>What is your project budget?</p>}
+        {formDetails && <p>Thanks. We just need a few details about you.</p>}
+        {!service && !size && !time && !budget && !formDetails && <p>Thanks. We will contact you soon.</p>}
+      </div>
+      <div className='d-flex'>
+        {service && <><BoxAnketa className='complex_service_anketa' getBoxClick={boxClick}></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='design_anketa'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='web_development_anketa'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='mobile_development_anketa'></BoxAnketa>
+          <BoxAnketa className='n-r other_anketa' getBoxClick={boxClick}></BoxAnketa></>}
+        {size && <><BoxAnketa getBoxClick={boxClick} className='xs'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='s'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='m'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='l'></BoxAnketa>
+          <BoxAnketa className='n-r xl' getBoxClick={boxClick}></BoxAnketa></>}
+        {time && <><BoxAnketa getBoxClick={boxClick} className='less_mon'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='m_1_2_mon'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='m_2_4_mon'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='m_4_6_mon'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='n-r more_6_mon' ></BoxAnketa></>}
+        {budget && <><BoxAnketa getBoxClick={boxClick} className='less_1k'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='d_1_3k'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='d_3_6k'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='d_6_10k'></BoxAnketa>
+          <BoxAnketa className='n-r more_10k' getBoxClick={boxClick}></BoxAnketa></>}
+        {formDetails &&
+          <div className='d-flex n-p'>
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <div className='d-flex w-1340'>
+                <input className={`wdd ${errors.email ? 'error' : 'input-big-share'}`} type="text" placeholder="Your email" {...register("email", { required: true, pattern: /^\S+@\S+$/i })} />
+                <input className='wdd input-big-share' type="text" placeholder="Your name (Oprional)" {...register("name", { required: false, maxLength: 100 })} />
+                <input className='wdd input-big-share' type="tel" placeholder="Your phone (Optional)" {...register("phone", { required: false, minLength: 6, maxLength: 12 })} />
+                <input className='wdd input-big-share' type="text" placeholder="Your company (Optional)" {...register("company", { required: false, maxLength: 100 })} />
+                <input className='wdd input-big-share n-r' type="text" placeholder="Your comment (Optional)" {...register("comment", {})} />
+              </div>
+              <input className='float-right submit' type="submit" value='Create with BigShare' />
+              <div onClick={getPreviousPage} className='back float-right p'><img id='' src={process.env.PUBLIC_URL + '/back.svg'} alt={"back"} /></div>
+            </form>
+          </div>}
+      </div>
+      {!formDetails && <div className='center n-p'>
+        <div className={`${service ? 'm-39' : ''}  d-flex for-center`}>
+          {(!service && !finishFormValue) && <img onClick={backClick} className='back-button' src={process.env.PUBLIC_URL + '/back.svg'} alt={"back"} />}
+
+          {!finishFormValue && <div className={`bar d-flex`}>
+            {/* color w-55 */}
+            {service && <><div className='color w-55'></div><div className=''></div><div className=''></div><div className=''></div><div className=''></div></>}
+            {size && <><div className='color w-55'></div><div className='color w-55'></div><div className=''></div><div className=''></div><div className=''></div></>}
+            {time && <><div className='color w-55'></div><div className='color w-55'></div><div className='color w-55'></div><div className=''></div><div className=''></div></>}
+            {budget && <><div className='color w-55'></div><div className='color w-55'></div><div className='color w-55'></div><div className='color w-55'></div><div className=''></div></>}
+
+          </div>}
+        </div>
+        {service && <div>Step 1 of 5</div>}
+        {size && <div>Step 2 of 5</div>}
+        {time && <div>Step 3 of 5</div>}
+        {budget && <div>Step 4 of 5</div>}
+      </div>
+      }
+    </Container>
+  )
+}
+export default Anketa;

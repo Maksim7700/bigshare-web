@@ -1,0 +1,72 @@
+.footer {
+  padding-top: 81px !important;
+  background-color: #101A24 !important;
+  padding-bottom: 65px;
+}
+
+.footer-2{
+  padding-top: 40px !important;
+}
+
+.footer-1 {
+  padding-bottom: 40px !important;
+}
+
+.navigate {
+  padding-top: 81px;
+}
+
+
+.social {
+  padding-left: 16px;
+}
+
+.linked-in::before {
+  content: url('../../public/linked_in.svg');
+}
+
+.linked-in:hover::before {
+  content: url('../../public/linkedin_hover.svg');
+}
+
+.behance::before {
+  content: url('../../public/B_E.svg');
+}
+
+.behance:hover::before {
+  content: url('../../public/behance_hover.svg');
+}
+
+.instagram::before {
+  content: url('../../public/instagram.svg');
+}
+
+
+.instagram:hover::before {
+  content: url('../../public/instagram_hover.svg');
+}
+
+
+.location {
+  margin-top: 6px;
+  color: #C8C8C8;
+  font-family: 'Montserrat';
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.c-8 {
+  color: #C8C8C8 !important;
+  font-weight: 400 !important;
+  font-size: 16px;
+}
+
+.email {
+  color: #C8C8C8;
+  margin-left: 8px;
+  margin-top: 3px;
+}
+
+.hr {
+  border: 1px solid #2E3842;
+}

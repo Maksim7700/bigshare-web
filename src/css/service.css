@@ -1,0 +1,47 @@
+
+.middle {
+    margin-top: 200px;
+    background: white;
+}
+
+.middle__title {
+    text-align: center;
+    color: #111714;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    padding-bottom: 24px;
+}
+
+.middle__service_text {
+    color: #1A9D63;
+}
+
+.middle_info {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #393939;
+    line-height: 24px;
+}
+
+@media (max-width: 1370px) and (min-width: 300px){
+    .middle__title {
+        font-size: 30px;
+        padding-top: 10px;
+        letter-spacing: 0px !important;
+        padding-bottom: 16px;
+    }
+
+    .middle {
+        margin-top: 88px;
+    }
+
+    .middle_info {
+        text-align: center;
+        font-size: 16px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+}

@@ -1,0 +1,80 @@
+.em-05{
+    letter-spacing: 0.05em !important;
+}
+
+.l-h-24{
+    line-height: 24px !important;
+}
+
+.l-h-72{
+    line-height: 72px !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.float-right{
+    float: right !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.f-w-500{
+    font-weight: 500 !important;
+}
+
+.f-w-400{
+    font-weight: 400 !important;
+}
+
+.f-w-300{
+    font-weight: 300 !important;
+}
+
+.f-w-700{
+    font-weight: 700 !important;
+}
+
+.fs-24{
+    font-size: 24px !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.m-16{
+    margin-left: 16px !important;
+}
+
+#green__text {
+    color: #1A9D63 !important;
+}
+
+.f-s-56 {
+    font-size: 56px !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.big-share-color{
+    color: #1A9D63 !important;
+}
+
+.paddint-top-200 {
+    padding-top: 200px;
+}
+
+.padding-bottom-24 {
+    padding-bottom: 24px;
+}
+
+.montserrat {
+    font-family: Montserrat;
+}
+

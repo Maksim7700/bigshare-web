@@ -1,0 +1,132 @@
+.text-anketa {
+  width: 1094px;
+  padding-bottom: 100px;
+}
+
+
+.color-service {
+  color: black !important;
+  background-color: #F8FBFF !important;
+  font-weight: 500;
+  font-family: 'Gilroy-Light', sans-serif;
+  margin-bottom: 16px;
+}
+
+.box {
+  border: 1px solid black;
+}
+
+.block_anketa {
+  border: 1px solid #B9D7FF;
+  width: 275px;
+  height: 337px;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.n-r {
+  margin-right: 0px !important;
+}
+
+#image_anketa {
+  padding-top: 121px;
+}
+
+
+.bar {
+  margin-top: 66px;
+  width: 275px;
+  height: 4px;
+  margin-bottom: 16px;
+  background-color: rgba(17, 23, 20, 0.1);;
+}
+
+.for-center{
+  margin-left: 33.5%;
+}
+
+.back-button {
+  margin-top: 57px;
+  margin-right: 17px;
+  height: 22px;
+}
+
+.n-p {
+  padding-bottom: 200px;
+}
+
+.m-39 {
+  margin-left: 39.81%;
+}
+
+.color {
+  background-color: #1A9D63;
+}
+
+.w-55 {
+  width: 55px;
+  height: 4px;
+}
+
+.error {
+  border-style: solid;
+  border-color: #c00;
+  border-width: 1px;
+}
+
+
+.input-big-share{
+  border: 1px solid #B9D7FF;
+  height: 48px;
+  padding: 1 1 auto;
+  width: 100%;
+}
+
+.wdd {
+  flex: auto;
+  width: 275px;
+  margin-right: 15px;
+}
+
+.w-1340{
+  width: 1340px;
+}
+
+input::placeholder {
+  color: #BABABA;
+}
+
+.submit {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+width: 256px;
+height: 48px;
+margin-left: 16px;
+
+background: #1A9D63;
+border: 1px solid #1A9D63;
+margin-top: 16px;
+}
+
+.back {
+  margin-top: 28px;
+}
+
+input[type="tel"] {
+  padding-left: 16px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+input[type="text"] {
+  padding-left: 16px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}

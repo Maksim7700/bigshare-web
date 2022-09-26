@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.blog__title{
+    padding-top: 90px;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+}
+
+.blog__text{
+    padding-top: 24px;
+    width: 768px;
+    color: #C8C8C8;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.blog{
+    background: #101A24;
+}
+
+.blog__block{
+    height: 303px;
+    background: #061019;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.first__text{
+    width: 768px;
+    color: #C8C8C8;
+    padding-top: 24px;
+}
+.first__title{
+    font-size: 24px;
+    color: white;
+}
+
+.first__blog{
+    font-family: 'Gilroy-Light', sans-serif;
+    padding-top: 64px;
+    padding-left: 64px;
+}
+
+.blog__blocks{
+    padding-top:100px;
+}
+
+.img-arrow-green{
+    padding-left: 8px;
+}
+
+.first__url{
+    padding-top: 24px;
+    color: #1A9D63;
+}
+
+.second__blog{
+    font-family: 'Gilroy-Light', sans-serif;
+    padding-top: 46px;
+    padding-left: 10%;
+}
+
+.view{
+    color: white;
+    font-size: 24px;
+    font-family: 'Gilroy-Light', sans-serif;
+    height: 93px;
+    background: #061019;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.buttom-pad{
+    padding-bottom: 200px;
+}

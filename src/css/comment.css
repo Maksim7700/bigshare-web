@@ -1,0 +1,45 @@
+.comment__header{
+    margin-top: 264px;
+}
+
+.comment__name{
+    margin-top: 8px;
+    color: #0E100E;
+    font-family: Montserrat;
+}
+
+.comment__position{
+    margin-top: 4px;
+    color: #8C8C8C;
+    font-family: Montserrat;
+}
+
+.comment__info{
+    margin-left: 16px;
+}
+
+.comment__comment{
+    font-family: Montserrat;
+    margin-top: 16px;
+    width: 702px;
+    color: #4A4A4A;
+}
+
+
+.comment__rating{
+    margin-top: 16px;
+}
+
+.comment__button__next{
+    padding-top: 6px;
+    height: 48px;
+    width: 48px;
+    background: #1A9D63;
+    border: none;
+    color: white;
+}
+
+
+.comment__navigation{
+    margin-top: 24px;
+}

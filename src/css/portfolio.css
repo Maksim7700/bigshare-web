@@ -1,0 +1,101 @@
+.projects__project{
+    height: 377px;
+    border: 1px solid #B9D7FF;
+    width: 49%;
+    background: #F8FBFF;
+    margin-top: 16px;
+}
+
+.b-n{
+    border: none !important;
+}
+
+.back-non{
+    background: none;
+}
+
+.margin__left{
+    margin-left: 16px;
+}
+
+.projects{
+    margin-top: 607px;
+    padding-bottom: 200px;
+}
+
+.projects__title{
+    color: #111714;
+    text-align: center;
+    font-size: 56px;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-weight: 700;
+}
+
+
+.projects__text{
+    color: #393939;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 1095px;
+    margin: 24px auto 0 auto;
+}
+
+.projects__{
+    margin-top: 100px;
+}
+
+.first{
+    margin-left: 16%;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+.center {
+    margin: auto !important;
+}
+
+.second {
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.add__project{
+    padding-left: 229px;
+    padding-top: 161px;
+    color: #0360B2;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    text-align: left;
+}
+
+.add__project__text{
+    margin-top: 19px;
+    position: absolute;
+}
+
+.add__project__start {
+    background: url('../../public/star-add-project.svg') no-repeat;
+    height: 60px;
+    margin-left:175px;
+}
+
+.p-l-175{
+    padding-left: 65px;
+}
+
+.w-700{
+    width: 657px;
+}
+
+.comment__star__blue{
+    opacity: 50;
+}
+
+.size-40{
+    font-size: 40px;
+}
