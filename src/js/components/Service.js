@@ -12,10 +12,10 @@ const Service = () => {
                 <div className='middle__title'>At your <span className='middle__service_text'>service,</span> every step
                     of the way
                 </div>
-                <div className='middle_info'>Innowise Group can cover the entire software development process, from
+                <div className='middle_info'><span className='center'>Innowise Group can cover the entire software development process, from
                     product vision discussion to applications design and
                     software enhancement. Our multi-skilled experienced team facilitates businesses worldwide on their
-                    way to digital transformation and helps companies take full advantage of IT innovations.
+                    way to digital transformation and helps companies take full advantage of IT innovations.</span>
                 </div>
                 <Block logo='/pen-tool-1.svg' title='Ecommerce Development'
                        text='Today’s business world is competitive, and while it’s relatively easy to get started, it’s very hard to rise to the top. We can help. Set your mind at ease by taking this opportunity to learn more about how Big Share can turn your ecommerce project into an income-generating, sales-making machine.'/>

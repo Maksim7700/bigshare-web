@@ -20,7 +20,7 @@
 
 .double__block__title {
     padding-left: 59px;
-    padding-top: 28px;
+    padding-top: 24px;
     font-size: 24px;
     font-family: 'Gilroy-Light', sans-serif;
 }
@@ -28,6 +28,7 @@
 .double__block__text {
     font-family: Montserrat;
     color: #393939;
+    letter-spacing: -0.1px;
 }
 
 @media (max-width: 1370px) and (min-width: 300px){
@@ -56,6 +57,8 @@
     }
 
     .double__block__text {
+        width: 582px;
+        letter-spacing: -0.1px !important;
         font-size: 20px !important;
         padding: 8px 16px 0 16px;
         text-align: center;

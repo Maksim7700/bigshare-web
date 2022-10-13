@@ -16,6 +16,10 @@
   border: 1px solid black;
 }
 
+.color-step {
+  color: #393939;
+}
+
 .block_anketa {
   border: 1px solid #B9D7FF;
   width: 275px;
@@ -129,4 +133,20 @@ input[type="text"] {
   padding-left: 16px;
   font-family: 'Montserrat';
   font-weight: 400;
+}
+
+.hover_icon {
+  position: relative;
+}
+
+.title {
+  font-family: 'Gilroy-Light', sans-serif;
+  font-size: 20px;
+  color: #111714;
+  font-weight: 500;
+  width: 100%;
+  bottom: 117px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    position: absolute;
 }

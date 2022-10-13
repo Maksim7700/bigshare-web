@@ -5,3 +5,18 @@
     text-align: center;
     margin-right: 16px;
 }
+
+.color-white {
+    color: white !important;
+    bottom: 57px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+
+.hie {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}

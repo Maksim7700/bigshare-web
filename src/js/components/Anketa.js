@@ -89,26 +89,26 @@ const Anketa = () => {
         {!service && !size && !time && !budget && !formDetails && <p>Thanks. We will contact you soon.</p>}
       </div>
       <div className='d-flex'>
-        {service && <><BoxAnketa className='complex_service_anketa' getBoxClick={boxClick}></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='design_anketa'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='web_development_anketa'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='mobile_development_anketa'></BoxAnketa>
-          <BoxAnketa className='n-r other_anketa' getBoxClick={boxClick}></BoxAnketa></>}
-        {size && <><BoxAnketa getBoxClick={boxClick} className='xs'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='s'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='m'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='l'></BoxAnketa>
-          <BoxAnketa className='n-r xl' getBoxClick={boxClick}></BoxAnketa></>}
-        {time && <><BoxAnketa getBoxClick={boxClick} className='less_mon'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='m_1_2_mon'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='m_2_4_mon'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='m_4_6_mon'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='n-r more_6_mon' ></BoxAnketa></>}
-        {budget && <><BoxAnketa getBoxClick={boxClick} className='less_1k'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='d_1_3k'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='d_3_6k'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='d_6_10k'></BoxAnketa>
-          <BoxAnketa className='n-r more_10k' getBoxClick={boxClick}></BoxAnketa></>}
+        {service && <><BoxAnketa className='complex_service_anketa' getBoxClick={boxClick} title='Complex of services'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='design_anketa' title='Design'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='web_development_anketa' title='Web development'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='mobile_development_anketa' title='Mobile development'></BoxAnketa>
+          <BoxAnketa className='n-r other_anketa' getBoxClick={boxClick} title='Other'></BoxAnketa></>}
+        {size && <><BoxAnketa getBoxClick={boxClick} className='xs' title='XS'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='s' title='S'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='m' title='M'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='l' title='L'></BoxAnketa>
+          <BoxAnketa className='n-r xl' getBoxClick={boxClick} title='XL'></BoxAnketa></>}
+        {time && <><BoxAnketa getBoxClick={boxClick} className='less_mon' title='Less than 1 month'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='m_1_2_mon' title='1-2 months'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='m_2_4_mon' title='2-4 months'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='m_4_6_mon' title='4-6 months'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='n-r more_6_mon' title='More than 6 months'></BoxAnketa></>}
+        {budget && <><BoxAnketa getBoxClick={boxClick} className='less_1k' title='Less than $1k'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='d_1_3k' title='$1k-3k'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='d_3_6k' title='$3k-6k'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} className='d_6_10k' title='$6k-10k'></BoxAnketa>
+          <BoxAnketa className='n-r more_10k' getBoxClick={boxClick} title='More than $10k'></BoxAnketa></>}
         {formDetails &&
           <div className='d-flex n-p'>
             <form onSubmit={handleSubmit(onSubmit)}>
@@ -137,10 +137,10 @@ const Anketa = () => {
 
           </div>}
         </div>
-        {service && <div>Step 1 of 5</div>}
-        {size && <div>Step 2 of 5</div>}
-        {time && <div>Step 3 of 5</div>}
-        {budget && <div>Step 4 of 5</div>}
+        {service && <div className='color-step'>Step 1 of 5</div>}
+        {size && <div className='color-step'>Step 2 of 5</div>}
+        {time && <div className='color-step'>Step 3 of 5</div>}
+        {budget && <div className='color-step'>Step 4 of 5</div>}
       </div>
       }
     </Container>

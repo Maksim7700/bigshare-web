@@ -53,25 +53,25 @@ const Technologies = () => {
                     </div>
                 </div>
                 {design && <div className='list__technologies d-flex'>
-                    <Language logo={'/figma.svg'} alt={'js'} />
-                    <Language logo={'/photoshop.svg'} alt={'css'} />
-                    <Language logo={'/illustrator.svg'} alt={'react'} />
-                    <Language logo={'/after_effect.svg'} alt={'wp'} />
-                    <Language logo={'/indesign.svg'} alt={'html'} />
+                    <Language logo={'/figma.svg'} alt={'js'} title='Figma'/>
+                    <Language logo={'/photoshop.svg'} alt={'css'} title='Photoshop'/>
+                    <Language logo={'/illustrator.svg'} alt={'react'} title='Illustrator'/>
+                    <Language logo={'/after_effect.svg'} alt={'wp'} title='After Effect'/>
+                    <Language logo={'/indesign.svg'} alt={'html'} title='Indesign'/>
                 </div>}
                 {web && <div className='list__technologies d-flex'>
-                    <Language logo={'/js.svg'} alt={'js'} />
-                    <Language logo={'/css.svg'} alt={'css'} />
-                    <Language logo={'/react.svg'} alt={'react'} />
-                    <Language logo={'/wp.svg'} alt={'wp'} />
-                    <Language logo={'/html.svg'} alt={'html'} />
+                    <Language logo={'/js.svg'} alt={'js'} title='JavaScript'/>
+                    <Language logo={'/css.svg'} alt={'css'} title='CSS'/>
+                    <Language logo={'/react.svg'} alt={'react'} title='React'/>
+                    <Language logo={'/wp.svg'} alt={'wp'} title='WordPress'/>
+                    <Language logo={'/html.svg'} alt={'html'} title='HTML'/>
                 </div>}
                 {mobile && <div className='list__technologies d-flex'>
-                    <Language logo={'/java.svg'} alt={'js'} />
-                    <Language logo={'/kotlin.svg'} alt={'css'} />
-                    <Language logo={'/react_native.svg'} alt={'react'} />
-                    <Language logo={'/angular.svg'} alt={'wp'} />
-                    <Language logo={'/flutter.svg'} alt={'html'} />
+                    <Language logo={'/java.svg'} alt={'js'} title='Java'/>
+                    <Language logo={'/kotlin.svg'} alt={'css'} title='Kotlin'/>
+                    <Language logo={'/react_native.svg'} alt={'react'} title='React Native'/>
+                    <Language logo={'/angular.svg'} alt={'wp'} title='Angular'/>
+                    <Language logo={'/flutter.svg'} alt={'html'} title='Flutter'/>
                 </div>}
             </div>
         </div>

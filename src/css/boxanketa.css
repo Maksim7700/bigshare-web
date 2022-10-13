@@ -10,11 +10,15 @@ text-align: center;
 }
 
 .p-t-119 {
-  padding-top: 119px;
+  padding-top: 124px;
 }
 
 .h-100{
   height: 100%;
+}
+
+.hover_icon:hover .title {
+  color: white;
 }
 
 .hover_icon .complex_service_anketa::before {
