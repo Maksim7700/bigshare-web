@@ -20,7 +20,7 @@ const Comment = () => {
                 <span><img src={process.env.PUBLIC_URL + '/star.svg'} alt='star'/></span>
                 <span><img src={process.env.PUBLIC_URL + '/star.svg'} alt='star'/></span>
             </div>
-            <div className='comment__comment em-05'>
+            <div className='comment__comment em-03'>
                 <i>
                     "This guy has an amazing imagination and ability to come up with
                     creative ideas. I just had to ask him and he would come up with things I would never think of.
