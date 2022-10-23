@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../css/main.css';
 import '../../css/service.css';
-
+import '../../css/fonts.css';
 import Block from './Block';
 import DoubleBlock from './DoubleBlock';
 
@@ -9,10 +9,10 @@ const Service = () => {
     return (
         <div className='middle em-05'>
             <div className="container">
-                <div className='middle__title'>At your <span className='middle__service_text'>service,</span> every step
+                <div className='middle__title Gilroy-700'>At your <span className='middle__service_text Gilroy-700'>service,</span> every step
                     of the way
                 </div>
-                <div className='middle_info'><span className='center'>Innowise Group can cover the entire software development process, from
+                <div className='middle_info'><span className='center Montserrat-400'>Innowise Group can cover the entire software development process, from
                     product vision discussion to applications design and
                     software enhancement. Our multi-skilled experienced team facilitates businesses worldwide on their
                     way to digital transformation and helps companies take full advantage of IT innovations.</span>

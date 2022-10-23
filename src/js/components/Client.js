@@ -8,10 +8,10 @@ const Client = () => {
         <div className='client em-05'>
             <div className='container d-flex'>
                 <div>
-                    <div className='text__title'>
+                    <div className='text__title Gilroy-700'>
                         We work with the <span id='green__text'> best</span>
                     </div>
-                    <div className='text__text l-h-24'>
+                    <div className='text__text l-h-24 Montserrat-400'>
                         We bring real world solutions to each client’s problem through a deep understanding of their
                         market, product, and vision.
                     </div>

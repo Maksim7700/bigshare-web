@@ -9,8 +9,8 @@ const Comment = () => {
             <div className='comment__header d-flex'>
                 <div><img src={process.env.PUBLIC_URL + '/face.svg'} alt='face'/></div>
                 <div className='comment__info'>
-                    <div className='comment__name em-05 f-w-500 l-h-24'>Alexandru Szentgyorgyi</div>
-                    <div className='comment__position em-05 f-w-500 l-h-24'>Byggito</div>
+                    <div className='comment__name em-05 Montserrat-500 l-h-24'>Alexandru Szentgyorgyi</div>
+                    <div className='comment__position em-05 Montserrat-500 l-h-24'>Byggito</div>
                 </div>
             </div>
             <div className='comment__rating'>
@@ -20,7 +20,7 @@ const Comment = () => {
                 <span><img src={process.env.PUBLIC_URL + '/star.svg'} alt='star'/></span>
                 <span><img src={process.env.PUBLIC_URL + '/star.svg'} alt='star'/></span>
             </div>
-            <div className='comment__comment em-03'>
+            <div className='comment__comment em-02 Montserrat-400'>
                 <i>
                     "This guy has an amazing imagination and ability to come up with
                     creative ideas. I just had to ask him and he would come up with things I would never think of.

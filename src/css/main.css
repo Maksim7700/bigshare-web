@@ -3,8 +3,13 @@
 }
 
 .em-03 {
-    letter-spacing: 0.05em !important;
+    letter-spacing: 0.03em !important;
 }
+
+.em-02 {
+    letter-spacing: 0.02em !important;
+}
+
 
 .l-h-24{
     line-height: 24px !important;

@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
-@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
-@import url('http://fonts.cdnfonts.com/css/montserrat');
-
 .middle__down__info {
     margin-top: 200px;
     height: 1057px;
@@ -45,9 +41,8 @@
 .middle__down__info__buttons button {
     margin-right: 16px;
     background: transparent;
-    border: 1px solid #858A90;
+    border: 1px solid rgba(75, 75, 75, 0.3);
     color: white;
-    font-family: Montserrat;
     font-weight: 400;
     width: 202px;
     height: 48px;

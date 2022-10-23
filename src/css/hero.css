@@ -49,8 +49,12 @@ line-height: 0px;
     font-size: 16px;
     border: 1px solid #858A90;
     height: 48px;
-    width: 170px;
-    padding: 11px 15px 11px 15px;
+    width: 180px;
+    padding: 11px 6px 11px 15px;
+}
+
+.btn__started__arrow {
+    padding-top: 2px !important;
 }
 
 

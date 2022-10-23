@@ -1,6 +1,6 @@
 import '../../css/main.css';
 import '../../css/hover.css';
-
+import '../../css/fonts.css';
 import '../../css/technologies.css';
 
 import Language from "./Language";
@@ -33,23 +33,23 @@ const Technologies = () => {
                 <div className='logo__type'>
                     <img className='logotype' src={process.env.PUBLIC_URL + '/logo_.svg'} alt={'logo'} />
                 </div>
-                <div className='middle__down__info__title l-h-72'>
+                <div className='middle__down__info__title l-h-72 Gilroy-700'>
                     Creating digital innovations with the<br /> latest <span id='green__text'>technologies</span>
                 </div>
-                <div className='middle_down__info__text l-h-24'>
+                <div className='middle_down__info__text l-h-24 Montserrat-400'>
                     Our team consists of enthusiastic technologists who love bringing real world solutions to our
                     clients’ problems. Our ideas stem from a deep understanding of our clients’ markets, solutions, and
                     visions.
                 </div>
                 <div className='middle__down__info__buttons d-flex'>
                     <div>
-                        <button onClick={getDesign} className={design ? 'em-05 middle__down__info__button e-h' : 'em-05 e-h'}>Design</button>
+                        <button onClick={getDesign} className={design ? 'em-05 middle__down__info__button Montserrat-500 e-h' : 'em-05 e-h'}>Design</button>
                     </div>
                     <div>
-                        <button onClick={getWeb} className={web ? 'middle__down__info__button em-05 e-h' : 'em-05 e-h'}>Web dev.</button>
+                        <button onClick={getWeb} className={web ? 'middle__down__info__button Montserrat-500 em-05 e-h' : 'em-05 e-h'}>Web dev.</button>
                     </div>
                     <div>
-                        <button onClick={getMobile} className={mobile ? 'middle__down__info__button em-05 e-h' : 'em-05 e-h'}>Mobile dev.</button>
+                        <button onClick={getMobile} className={mobile ? 'middle__down__info__button Montserrat-500 em-05 e-h' : 'em-05 e-h'}>Mobile dev.</button>
                     </div>
                 </div>
                 {design && <div className='list__technologies d-flex'>

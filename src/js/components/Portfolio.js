@@ -13,10 +13,10 @@ const Portfolio = () => {
         <div className='projects em-05'>
             <Container>
                 <div className='projects__head'>
-                    <div className='projects__title l-h-72'>
+                    <div className='projects__title l-h-72 Gilroy-700'>
                         See Some of Our Popular <span id='green__text'>Portfolio</span>
                     </div>
-                    <div className='projects__text l-h-24'>
+                    <div className='projects__text l-h-24 Montserrat-400'>
                         Our team helped global brands design, build, launch, and scale their digital products! We bring
                         digital transformation across multiple industries (from social, finTech and healthTech to
                         IoT and Transportation)
