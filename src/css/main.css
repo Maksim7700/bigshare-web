@@ -75,6 +75,14 @@
     color: #1A9D63 !important;
 }
 
+.text-color-black {
+    color: #111714 !important;
+}
+
+.text-color-silver-s {
+    color: #393939 !important;
+}
+
 .paddint-top-200 {
     padding-top: 200px;
 }

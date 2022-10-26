@@ -43,35 +43,35 @@ const Technologies = () => {
                 </div>
                 <div className='middle__down__info__buttons d-flex'>
                     <div>
-                        <button onClick={getDesign} className={design ? 'em-05 middle__down__info__button Montserrat-500 e-h' : 'em-05 e-h'}>Design</button>
+                        <button onClick={getDesign} className={design ? 'Montserrat-500 em-05 middle__down__info__button e-h' : 'Montserrat-500 em-05 e-h'}>Design</button>
                     </div>
                     <div>
-                        <button onClick={getWeb} className={web ? 'middle__down__info__button Montserrat-500 em-05 e-h' : 'em-05 e-h'}>Web dev.</button>
+                        <button onClick={getWeb} className={web ? 'Montserrat-500 middle__down__info__button em-05 e-h' : ' Montserrat-500 em-05 e-h'}>Web dev.</button>
                     </div>
                     <div>
-                        <button onClick={getMobile} className={mobile ? 'middle__down__info__button Montserrat-500 em-05 e-h' : 'em-05 e-h'}>Mobile dev.</button>
+                        <button onClick={getMobile} className={mobile ? 'Montserrat-500 middle__down__info__button em-05 e-h' : 'Montserrat-500 em-05 e-h'}>Mobile dev.</button>
                     </div>
                 </div>
                 {design && <div className='list__technologies d-flex'>
-                    <Language logo={'/figma.svg'} alt={'js'} title='Figma'/>
-                    <Language logo={'/photoshop.svg'} alt={'css'} title='Photoshop'/>
-                    <Language logo={'/illustrator.svg'} alt={'react'} title='Illustrator'/>
-                    <Language logo={'/after_effect.svg'} alt={'wp'} title='After Effect'/>
-                    <Language logo={'/indesign.svg'} alt={'html'} title='Indesign'/>
+                    <Language className='figma' logo={'/figma.svg'}alt={'figma'} title='Figma'/>
+                    <Language className='photoshop' logo={'/photoshop.svg'} alt={'css'} title='Photoshop'/>
+                    <Language className='illustrator' logo={'/illustrator.svg'} alt={'react'} title='Illustrator'/>
+                    <Language className='after_effect' logo={'/after_effect.svg'} alt={'wp'} title='After Effect'/>
+                    <Language className='indesign' logo={'/indesign.svg'} alt={'html'} title='Indesign'/>
                 </div>}
                 {web && <div className='list__technologies d-flex'>
-                    <Language logo={'/js.svg'} alt={'js'} title='JavaScript'/>
-                    <Language logo={'/css.svg'} alt={'css'} title='CSS'/>
-                    <Language logo={'/react.svg'} alt={'react'} title='React'/>
-                    <Language logo={'/wp.svg'} alt={'wp'} title='WordPress'/>
-                    <Language logo={'/html.svg'} alt={'html'} title='HTML'/>
+                    <Language className='js' logo={'/js.svg'} alt={'js'} title='JavaScript'/>
+                    <Language className='css' logo={'/css.svg'} alt={'css'} title='CSS'/>
+                    <Language className='react' logo={'/react.svg'} alt={'react'} title='React'/>
+                    <Language className='wp' logo={'/wp.svg'} alt={'wp'} title='WordPress'/>
+                    <Language className='html' logo={'/html.svg'} alt={'html'} title='HTML'/>
                 </div>}
                 {mobile && <div className='list__technologies d-flex'>
-                    <Language logo={'/java.svg'} alt={'js'} title='Java'/>
-                    <Language logo={'/kotlin.svg'} alt={'css'} title='Kotlin'/>
-                    <Language logo={'/react_native.svg'} alt={'react'} title='React Native'/>
-                    <Language logo={'/angular.svg'} alt={'wp'} title='Angular'/>
-                    <Language logo={'/flutter.svg'} alt={'html'} title='Flutter'/>
+                    <Language className='java' logo={'/java.svg'} alt={'java'} title='Java'/>
+                    <Language className='kotlin' logo={'/kotlin.svg'} alt={'css'} title='Kotlin'/>
+                    <Language className='react_native' logo={'/react_native.svg'} alt={'react'} title='React Native'/>
+                    <Language className='angular' logo={'/angular.svg'} alt={'wp'} title='Angular'/>
+                    <Language className='flutter' logo={'/flutter.svg'} alt={'html'} title='Flutter'/>
                 </div>}
             </div>
         </div>

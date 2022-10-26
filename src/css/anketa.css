@@ -135,10 +135,6 @@ input[type="text"] {
   font-weight: 400;
 }
 
-.hover_icon {
-  position: relative;
-}
-
 .title {
   font-family: 'Gilroy-Light', sans-serif;
   font-size: 20px;

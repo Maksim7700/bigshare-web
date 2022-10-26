@@ -78,9 +78,9 @@ const Anketa = () => {
 
   return (
     <Container>
-      <div className='paddint-top-200 padding-bottom-24 f-w-700 gilroy l-h-72 f-s-56 center Gilroy-700'><span>Let's </span><span className='big-share-color'>get started</span><span>. Tell us how we can help</span></div>
-      <div className='text-anketa l-h-24 em-05 montserrat f-w-400 fs-16 center Montserrat-400'>Let’s turn your idea into digital reality! Just answer our interactive questions and we will draft the best product offer for you. We provide free estimation and IT consulting for our clients. So don’t hesitate to contact us.</div>
-      <div className='view l-h-24 f-w-500 color-service Gilroy-500'>
+      <div className='paddint-top-200 padding-bottom-24 f-w-700 gilroy l-h-72 f-s-56 center Gilroy-700'><span className='text-color-black'>Let's </span><span className='big-share-color'>get started</span><span className='text-color-black'>. Tell us how we can help</span></div>
+      <div className='text-anketa l-h-24 em-05 montserrat f-w-400 fs-16 center Montserrat-400 text-color-silver-s'>Let’s turn your idea into digital reality! Just answer our interactive questions and we will draft the best product offer for you. We provide free estimation and IT consulting for our clients. So don’t hesitate to contact us.</div>
+      <div className='view l-h-24 f-w-500 color-service Gilroy-500 text-color-black'>
         {service && <p>What service are you interested in?</p>}
         {size && <p>How big is your project?</p>}
         {time && <p>How much time do you have for a development?</p>}

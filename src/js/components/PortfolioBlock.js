@@ -7,7 +7,7 @@ const PortfolioBlock = (props) => {
     const isRight = props.right === true ? 'margin__left' : '';
     const isCenter = props.center === true ? 'center' : '';
     return (
-        <div className={`b-n em-05 projects__project ${isRight} d-flex`}>
+        <div className={`b-n em-05 projects__project ${isRight} d-flex w-706`}>
             <div className='first'>
                 <img src={process.env.PUBLIC_URL + props.leftImg} alt='bike' />
             </div>

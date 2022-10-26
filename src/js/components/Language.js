@@ -5,12 +5,10 @@ import React from 'react';
 const Language = (props) => {
     return (
         <div className='block em-05'>
-            <div className='hie'>
-                <div className='icon'>
-                    <img id='image' src={process.env.PUBLIC_URL + props.logo} alt={props.alt} />
-                </div>
-                <div className='color-white'>{props.title}</div>
-            </div>
+            <div target="_blank">
+                <img src={`${props.logo}`} className={`image-tech ${props.className}`} border="0" alt={props.alt}/>
+             </div>
+             <div className='color-white Montserrat-500'>{props.title}</div>
         </div>
     );
 }

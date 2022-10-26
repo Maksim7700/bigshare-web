@@ -9,9 +9,8 @@
 .color-white {
     color: white !important;
     bottom: 57px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-    position: absolute;
+    left: 50%;
+    padding-top: 27px;
 }
 
 
@@ -19,4 +18,8 @@
     height: 100%;
     margin: 0 auto;
     position: relative;
+}
+
+.image-tech {
+    padding-top: 66px;
 }

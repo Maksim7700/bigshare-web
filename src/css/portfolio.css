@@ -63,7 +63,7 @@
 }
 
 .add__project{
-    padding-left: 229px;
+    padding-left: 230px;
     padding-top: 161px;
     color: #0360B2;
     font-family: 'Gilroy-Light', sans-serif;
@@ -81,7 +81,7 @@
 .add__project__start {
     background: url('../../public/star-add-project.svg') no-repeat;
     height: 60px;
-    margin-left:175px;
+    margin-left:205px;
 }
 
 .p-l-175{
@@ -89,7 +89,11 @@
 }
 
 .w-700{
-    width: 657px;
+    width: 711px;
+}
+
+.w-706{
+    width: 706px;
 }
 
 .comment__star__blue{
