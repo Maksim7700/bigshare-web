@@ -143,6 +143,5 @@ input[type="text"] {
   width: 100%;
   bottom: 117px;
   left: 50%;
-  transform: translate(-50%, -50%);
-    position: absolute;
+  padding-top: 36px;
 }
