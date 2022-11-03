@@ -25,5 +25,71 @@
     font-family: Montserrat;
     width: 768px;
     color: #393939;
+}
 
+.inside {
+    width: 204px;
+    height: 204px;
+}
+
+.outside{
+    position: relative;
+}
+
+.float01 {
+    float: left;
+}
+
+.inside-inline {
+    display: inline;
+}
+
+.inside-first {
+    margin-top: 228px;
+    margin-right: 25px;
+}
+
+.inside-2 {
+    margin-top: 24px;
+}
+
+.inside-3 {
+    margin-top: 24px
+}
+
+.inside-second {
+    margin-top: 114px;
+    margin-right: 25px;
+}
+
+.inside-5 {
+    margin-top: 24px;
+}
+
+.inside-6 {
+    margin-top: 24px;
+}
+
+.inside-7 {
+    margin-top: 24px;
+}
+
+.inside-9 {
+    margin-top: 24px;
+}
+
+.inside-10 {
+    margin-top: 24px;
+}
+
+.inside-11 {
+    margin-top: 24px;
+}
+
+.inside-12 {
+    margin-top: 24px;
+}
+
+.cl_add {
+    background-image: url('../../public/star_1.svg');
 }
