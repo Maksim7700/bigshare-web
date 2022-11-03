@@ -20,7 +20,27 @@ const Client = () => {
                     </div>
                 </div>
                 <div className='container-right'>
-                    <div><img src={process.env.PUBLIC_URL + '/client.svg'} alt='client'/></div>
+                    {/* <div><img src={process.env.PUBLIC_URL + '/client.svg'} alt='client'/></div> */}
+                    <div className='outsidex inside-inline'>
+                        <div className='float01 inside-first'>
+                        <div><img src= {process.env.PUBLIC_URL + '/logo_1.svg'} className='inside inside-1' alt='logo'></img></div>
+                            <div className='inside inside-2 cl_add'></div>
+                            <div><img src= {process.env.PUBLIC_URL + '/logo_2.svg'} className='inside inside-3' alt='logo'></img></div>
+                        </div>
+                        <div className='float01 inside-second'>
+                            <div><img src= {process.env.PUBLIC_URL + '/logo_3.svg'} className='inside inside-4' alt='logo'></img></div>
+                            <div><img src= {process.env.PUBLIC_URL + '/logo_4.svg'} className='inside inside-5' alt='logo'></img></div>
+                            <div><img src= {process.env.PUBLIC_URL + '/logo_5.svg'} className='inside inside-6' alt='logo'></img></div>
+                            <div><img src= {process.env.PUBLIC_URL + '/logo_6.svg'} className='inside inside-7' alt='logo'></img></div>
+                        </div>
+                        <div className='float01 inside-third'>
+                            <div><img src= {process.env.PUBLIC_URL + '/logo_7.svg'} className='inside inside-8' alt='logo'></img></div>
+                            <div><img src= {process.env.PUBLIC_URL + '/logo_8.svg'} className='inside inside-9' alt='logo'></img></div>
+                            <div><img src= {process.env.PUBLIC_URL + '/logo_9.svg'} className='inside inside-10' alt='logo'></img></div>
+                            <div><img src= {process.env.PUBLIC_URL + '/logo_10.svg'} className='inside inside-11' alt='logo'></img></div>
+                            <div><img src= {process.env.PUBLIC_URL + '/logo_11.svg'} className='inside inside-12' alt='logo'></img></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
