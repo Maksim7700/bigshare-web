@@ -62,7 +62,7 @@ const Technologies = () => {
                 {web && <div className='list__technologies d-flex'>
                     <Language className='js' logo={'/js.svg'} alt={'js'} title='JavaScript'/>
                     <Language className='css' logo={'/css.svg'} alt={'css'} title='CSS'/>
-                    <Language className='react' logo={'/react.svg'} alt={'react'} title='React'/>
+                    <Language className='react' logo={'/react_native.svg'} alt={'react'} title='React'/>
                     <Language className='wp' logo={'/wp.svg'} alt={'wp'} title='WordPress'/>
                     <Language className='html' logo={'/html.svg'} alt={'html'} title='HTML'/>
                 </div>}

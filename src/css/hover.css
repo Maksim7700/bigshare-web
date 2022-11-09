@@ -98,7 +98,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .figma {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .photoshop {
@@ -107,7 +107,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .photoshop {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .illustrator {
@@ -116,7 +116,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .illustrator {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .after_effect {
@@ -125,7 +125,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .after_effect {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .indesign {
@@ -134,7 +134,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .indesign {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .java {
@@ -143,7 +143,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .java {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .kotlin {
@@ -152,7 +152,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .kotlin {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .react_native {
@@ -161,7 +161,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .react_native {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .angular {
@@ -170,7 +170,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .angular {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .flutter {
@@ -179,7 +179,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .flutter {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .js {
@@ -188,7 +188,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .js {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .css {
@@ -197,7 +197,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .css {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .react {
@@ -206,7 +206,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .react {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .wp {
@@ -215,7 +215,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .wp {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 .html {
@@ -224,7 +224,7 @@ box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.12);
 
 .block:hover .html {
   transition: 0.15s ease-out 100ms;
-  transform: scale(1.2);
+  transform: scale(1.2) translate(0, -10%);
 }
 
 

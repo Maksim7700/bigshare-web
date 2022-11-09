@@ -14,7 +14,7 @@ const Portfolio = () => {
             <Container>
                 <div className='projects__head'>
                     <div className='projects__title l-h-72 Gilroy-700'>
-                        See some of our popular <span id='green__text'>Portfolio</span>
+                        See some of our popular <span id='green__text'>portfolio</span>
                     </div>
                     <div className='projects__text l-h-24 Montserrat-400'>
                         Our team helped global brands design, build, launch, and scale their digital products! We bring
