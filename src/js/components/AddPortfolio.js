@@ -9,7 +9,7 @@ const AddPortfolio = () => {
                 <div className='text'>
                     <div className='add__project d-flex'>
                         <span className='add__project__text Gilroy-500'>Add my project</span>
-                        <text className="p-l-175 size-40 add__project__start"></text>
+                        <span className="p-l-175 size-40 add__project__start"></span>
                     </div>
                 </div>
             </div>
