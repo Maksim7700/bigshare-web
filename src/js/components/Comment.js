@@ -64,6 +64,7 @@ const previous = () => {
 
 useEffect(()=> {
     setCurrent(comments[comment])
+    // eslint-disable-next-line
 }, [comment])
 
     return (
