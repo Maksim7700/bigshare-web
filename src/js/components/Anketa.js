@@ -113,13 +113,13 @@ const Anketa = () => {
           <div className='d-flex n-p'>
             <form onSubmit={handleSubmit(onSubmit)}>
               <div className='d-flex w-1340'>
-                <input className={`wdd ${errors.email ? 'error' : 'input-big-share'}`} type="text" placeholder="Your email" {...register("email", { required: true, pattern: /^\S+@\S+$/i })} />
-                <input className='wdd input-big-share' type="text" placeholder="Your name (Oprional)" {...register("name", { required: false, maxLength: 100 })} />
-                <input className='wdd input-big-share' type="tel" placeholder="Your phone (Optional)" {...register("phone", { required: false, minLength: 6, maxLength: 12 })} />
-                <input className='wdd input-big-share' type="text" placeholder="Your company (Optional)" {...register("company", { required: false, maxLength: 100 })} />
-                <input className='wdd input-big-share n-r' type="text" placeholder="Your comment (Optional)" {...register("comment", {})} />
+                <input className={`wdd Montserrat-400 ${errors.email ? 'error' : 'input-big-share'}`} type="text" placeholder="Your email" {...register("email", { required: true, pattern: /^\S+@\S+$/i })} />
+                <input className='wdd Montserrat-400 input-big-share' type="text" placeholder="Your name (Oprional)" {...register("name", { required: false, maxLength: 100 })} />
+                <input className='wdd Montserrat-400 input-big-share' type="tel" placeholder="Your phone (Optional)" {...register("phone", { required: false, minLength: 6, maxLength: 12 })} />
+                <input className='wdd Montserrat-400 input-big-share' type="text" placeholder="Your company (Optional)" {...register("company", { required: false, maxLength: 100 })} />
+                <input className='wdd Montserrat-400 input-big-share n-r' type="text" placeholder="Your comment (Optional)" {...register("comment", {})} />
               </div>
-              <input className='float-right submit' type="submit" value='Create with BigShare' />
+              <input className='float-right submit Montserrat-600' type="submit" value='Create with BigShare' />
               <div onClick={getPreviousPage} className='back float-right p'><img id='' src={process.env.PUBLIC_URL + '/back.svg'} alt={"back"} /></div>
             </form>
           </div>}
