@@ -24,7 +24,7 @@ const Client = () => {
                     <div className='outsidex inside-inline'>
                         <div className='float01 inside-first'>
                         <div><img src= {process.env.PUBLIC_URL + '/logo_1.svg'} className='inside inside-1' alt='logo'></img></div>
-                            <div className='inside inside-2 cl_add'></div>
+                            <div className='inside inside-2 cl'><div className='cl_add2'></div><div className='cl_add Gilroy-500'>Add my company</div></div>
                             <div><img src= {process.env.PUBLIC_URL + '/logo_2.svg'} className='inside inside-3' alt='logo'></img></div>
                         </div>
                         <div className='float01 inside-second'>

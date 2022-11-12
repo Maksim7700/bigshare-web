@@ -54,10 +54,18 @@
   margin-left: 8px;
 }
 
+.location:hover {
+  color: #0360B2;
+}
+
 .c-8 {
   color: #C8C8C8 !important;
   font-weight: 400 !important;
   font-size: 16px;
+}
+
+.c-8:hover {
+  color: #0360B2 !important;
 }
 
 .email {
@@ -68,4 +76,18 @@
 
 .hr {
   border: 1px solid #2E3842;
+}
+
+.social_media {
+  height: 21.5px;
+  width: 23px;
+  background: url('../../public/email.svg');
+}
+
+.mail-list:hover .social_media{
+  background: url('../../public/mail_hover.svg');
+}
+
+.mail-list:hover .email {
+  color: #0360B2;
 }

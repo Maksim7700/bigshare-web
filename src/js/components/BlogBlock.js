@@ -14,7 +14,7 @@ const BlogBlock = (props) => {
                 </div>
                 <div className='first__url l-h-24 f-w-400 d-flex'>
                     <div className='Montserrat-400'>Read More</div>
-                    <div className='img-arrow-green'><img src={process.env.PUBLIC_URL + '/arrow-right-green.svg'} alt={props.alt} /></div>
+                    <div className='img-arrow-green'><p><i class="arrow right"></i></p></div>
 
                 </div>
             </div>

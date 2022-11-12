@@ -119,14 +119,14 @@ const Anketa = () => {
                 <input className='wdd Montserrat-400 input-big-share' type="text" placeholder="Your company (Optional)" {...register("company", { required: false, maxLength: 100 })} />
                 <input className='wdd Montserrat-400 input-big-share n-r' type="text" placeholder="Your comment (Optional)" {...register("comment", {})} />
               </div>
-              <input className='float-right submit Montserrat-600' type="submit" value='Create with BigShare' />
-              <div onClick={getPreviousPage} className='back float-right p'><img id='' src={process.env.PUBLIC_URL + '/back.svg'} alt={"back"} /></div>
+              <input className='float-right submit Montserrat-500' type="submit" value='Create with BigShare' />
+              <div className='back-button-form' onClick={getPreviousPage}><div className='back-button-button float-right Montserrat-400'>Back</div><div className='ar-left arrow left float-right'></div></div>
             </form>
           </div>}
       </div>
       {!formDetails && <div className='center n-p'>
         <div className={`${service ? 'm-39' : ''}  d-flex for-center`}>
-          {(!service && !finishFormValue) && <img onClick={backClick} className='back-button' src={process.env.PUBLIC_URL + '/back.svg'} alt={"back"} />}
+          {(!service && !finishFormValue) && <><div onClick={backClick} className='back-button-click'><div className='back-button-button float-right Montserrat-400'>Back</div><div className='ar-left arrow left float-right'></div></div></>}
 
           {!finishFormValue && <div className={`bar d-flex`}>
             {/* color w-55 */}

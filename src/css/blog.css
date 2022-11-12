@@ -48,10 +48,13 @@
 
 .img-arrow-green{
     padding-left: 8px;
+    margin-top: -13px;
 }
 
 .first__url{
-    padding-top: 24px;
+    width: 110px;
+    height: 25px;
+    margin-top: 24px;
     color: #1A9D63;
 }
 
@@ -74,3 +77,30 @@
 .buttom-pad{
     padding-bottom: 200px;
 }
+
+.arrow {
+    border: solid #1A9D63;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 1.5px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+.first__url:hover {
+    cursor: pointer;
+    color: #0360B2;
+}
+
+  .first__url:hover .arrow{
+    border: solid #0360B2;
+    border-width: 0 2px 2px 0;
+    font-size: 40px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 1.5px;
+  }

@@ -33,9 +33,8 @@ const Footer = () => {
                         <li className="nav-list__item em-05 Montserrat-400"><Link className="nav-list__link c-8" to={'/portfolio'}>Privacy Policy</Link>
                         </li>
                     </ul>
-                    <ul className='nav-list'>
-                        <li><img className='social' src={process.env.PUBLIC_URL + '/email.svg'}
-                            alt="linked-in" /></li><span className='email Montserrat-400'>bigshare@gmail.com</span>
+                    <ul className='nav-list mail-list'>
+                        <li><div className='social_media'></div></li><span className='email Montserrat-400'>bigshare@gmail.com</span>
                     </ul>
                 </Navigate>
 

@@ -90,6 +90,35 @@
     margin-top: 24px;
 }
 
+.cl {
+    border: 1px solid #B9D7FF;
+}
+
+.cl_add2 {
+    height: 41px;
+    width: 45px;
+    margin-top: 67px;
+    margin-left: 82px;
+    background: url('../../public/star_add.svg');
+}
+
+.inside-2:hover .cl_add2{
+    background: url('../../public/star_add_hover.svg');
+}
+
+.inside-2:hover .cl_add {
+    color: #FFFFFF;
+}
+
+.inside-2:hover {
+    background-color: #0360B2;
+    border: 1px solid #0360B2;
+    cursor: pointer;
+}
+
 .cl_add {
-    background-image: url('../../public/star_1.svg');
+    color: #0360B2;
+    padding-top: 12px;
+    padding-left: 21px;
+    font-size: 20px;
 }
