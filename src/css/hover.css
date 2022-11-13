@@ -20,19 +20,19 @@
 .middle_block:hover {
   cursor: pointer;
   background: #F8FBFF;
-  box-shadow: 0px 0px 35px rgba(3, 96, 178, 0.2);
+  box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.2);
 }
 
 .double__middle_block:hover {
   cursor: pointer;
   background: #F8FBFF;
-  box-shadow: 0px 0px 35px rgba(3, 96, 178, 0.2);
+  box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.2);
 }
 
 .double__middle_block__2:hover{
   cursor: pointer;
   background: #F8FBFF;
-  box-shadow: 0px 0px 35px rgba(3, 96, 178, 0.2);
+  box-shadow: 0px 0px 25px rgba(3, 96, 178, 0.2);
 }
 
 .e-h:hover{
