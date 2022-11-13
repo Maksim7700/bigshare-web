@@ -90,6 +90,15 @@
     src: url('./fonts/gilroy/Gilroy-SemiBold.ttf');
 }
 
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url('./fonts/gilroy/Gilroy-Bold.ttf');
+}
+
+.Gilroy-700-bold {
+    font-family: Gilroy-Bold !important; /* 700 */
+}
+
 .Gilroy-700 {
     font-family: Gilroy-SemiBold !important; /* 700 */
 }

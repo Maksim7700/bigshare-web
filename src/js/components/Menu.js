@@ -38,7 +38,7 @@ const Menu = () => {
                     </li>
                     <li className="nav-list__item em-05"><Link className="nav-list__link" to={'/blog'}>Blog</Link></li>
                 </ul> */}
-                <div className="nav__button em-05 Montserrat-600">Contact us</div>
+                <div className="nav__button em-05 Montserrat-500">Contact us</div>
             </Navigate>
         </header>
     );

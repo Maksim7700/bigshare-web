@@ -5,13 +5,13 @@
 .comment__name{
     margin-top: 8px;
     color: #0E100E;
-    font-family: Montserrat;
 }
 
 .comment__position{
+    
     margin-top: 4px;
     color: #8C8C8C;
-    font-family: Montserrat;
+font-size: 14px;
 }
 
 .comment__info{

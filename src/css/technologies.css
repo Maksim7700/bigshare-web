@@ -17,9 +17,10 @@
 }
 
 .middle_down__info__text {
+    width: 1076px;
     padding-top: 24px;
-    letter-spacing: 2px;
     font-weight: 400;
+    font-size: 16px;
     font-family: Montserrat;
     color: #C8C8C8;
 ;

@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("/public/background-header.jpg");
+    background-image: url("/public/background-header.png");
     height: 1024px;
     margin: 0;
     background-repeat: no-repeat;
@@ -96,8 +96,6 @@ li {
     border: 1px solid #1A9D63;
     padding: 13.3px 52px;
     background-color: #1A9D63;
-    font-weight: 500;
-    font-family: Montserrat;
 }
 
 @media (max-width: 1370px) and (min-width: 300px){

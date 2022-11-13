@@ -8,7 +8,7 @@ const Language = (props) => {
             <div target="_blank">
                 <img src={`${props.logo}`} className={`image-tech ${props.className}`} border="0" alt={props.alt}/>
              </div>
-             <div className='color-white Montserrat-500'>{props.title}</div>
+             <div className='lang-text color-white Montserrat-500'>{props.title}</div>
         </div>
     );
 }
