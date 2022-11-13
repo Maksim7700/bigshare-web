@@ -5,7 +5,10 @@ import '../../css/hover.css';
 import '../../css/fonts.css';
 import React from 'react';
 
+
+
 const Hero = () => {
+
     return (
         <div className='head em-05'>
             <Container>

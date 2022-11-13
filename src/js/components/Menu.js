@@ -5,6 +5,7 @@ import '../../css/hover.css';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 import Navigate from '../../UI/Navigate';
+import {Link as Scroll} from 'react-scroll';
 import React from 'react';
 
 const Menu = () => {
@@ -38,7 +39,7 @@ const Menu = () => {
                     </li>
                     <li className="nav-list__item em-05"><Link className="nav-list__link" to={'/blog'}>Blog</Link></li>
                 </ul> */}
-                <div className="nav__button em-05 Montserrat-500">Contact us</div>
+                <Scroll to='anketa' spy={true} smooth={true}><div className="nav__button em-05 Montserrat-500">Contact us</div></Scroll>
             </Navigate>
         </header>
     );
