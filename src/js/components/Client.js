@@ -8,7 +8,7 @@ const Client = () => {
         <div className='client em-05'>
             <div className='container d-flex'>
                 <div>
-                    <div className='text__title Gilroy-700'>
+                    <div className='text__title Gilroy-700-bold'>
                         We work with the <span id='green__text'> best</span>
                     </div>
                     <div className='text__text l-h-24 Montserrat-400'>

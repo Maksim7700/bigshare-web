@@ -13,7 +13,7 @@ const Hero = () => {
                     Let’s Make Software
                 </div>
                 <div className='header__second_info em-05 l-h-72 Gilroy-700'>Together</div>
-                <div className='header__third_info em-05 Montserrat-500'>Big or small, immediate or ongoing projects, individual or
+                <div className='header__third_info em-05 Montserrat-400'>Big or small, immediate or ongoing projects, individual or
                     team-based
                     projects: get them all done
                     with Big Share professionals.
