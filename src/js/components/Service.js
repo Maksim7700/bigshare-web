@@ -9,7 +9,7 @@ const Service = () => {
     return (
         <div className='middle em-05'>
             <div className="container">
-                <div className='middle__title Gilroy-700'>At your <span className='middle__service_text Gilroy-700'>service,</span> every step
+                <div className='middle__title Gilroy-700-bold'>At your <span className='middle__service_text Gilroy-700'>service,</span> every step
                     of the way
                 </div>
                 <div className='middle_info'><span className='center Montserrat-400'>Innowise Group can cover the entire software development process, from
