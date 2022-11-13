@@ -3,15 +3,14 @@
 }
 
 .comment__name{
-    margin-top: 8px;
+    margin-top: 10px;
     color: #0E100E;
 }
 
 .comment__position{
-    
-    margin-top: 4px;
+    margin-top: 0px;
     color: #8C8C8C;
-font-size: 14px;
+    font-size: 14px;
 }
 
 .comment__info{

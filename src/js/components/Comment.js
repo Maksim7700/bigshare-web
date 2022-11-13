@@ -10,35 +10,31 @@ const Comment = () => {
         img: '/face.svg',
         name: 'Alexandru Szentgyorgyi',
         position: 'Byggito',
-        text: `"This guy has an amazing imagination and ability to come up with
-        creative ideas. I just had to ask him and he would come up with things I would never think of.
-        I can be a bit annoying because I am a perfectionist but everytime I asked him to change something
-        or
-        come up with something else he would do ..."`    
+        text: `"This guy has an amazing imagination and ability to come up with creative ideas. I just had to ask him and he would come up with things I would never think of. I can be a bit annoying because I am a perfectionist but everytime I asked him to change something or come up with something else he would do it directly. It was ..."`    
     },
     {
         img: '/face2.svg',
-        name: 'Ozair Memon',
-        position: 'Acebuddy world',
-        text: `"Andrii was awesome to work with, excellent at his job and patient with any changes that were needed. Would 100% recommend for any design work and will be using him for any other design work we need!"`    
+        name: 'Ruchi Goenka',
+        position: 'Desire Trip',
+        text: `“Andrii developed the best UI/UX that came along perfectly. We have asked for multiple revisions as we were looking for a suitable option for a particular section and Andrii helped us with the same without any hassle. He not only made these versions many times but at the same time, his creative feedback was the reason f...”`    
     },
     {
         img: '/face3.svg',
-        name: 'Chisom Nintons',
-        position: 'Current CSM',
-        text: `"Given a short timeline. Provided quality work 👍"`    
+        name: 'Andre Bush',
+        position: 'WolfPad',
+        text: `“Andrii understood our requirements well and came out with an awesome output. He used very good colour combination and the flow of UI/UX was just perfect with the right images. Thanks a ton and looking forward to work for more pages of the website. Thanks!”`    
     },
     {
         img: '/face4.svg',
         name: 'Ishwar Jha',
         position: 'Wistec Assessments',
-        text: `"Andrii is a very proactive designer. He is supportive, understands the requirement in detail, and approaches the job with lots of flexibility. I placed the order to him even though he didn't have any earning here on upwork, but I think I won't have taken a better choice than assigning work to Andrii..."`
+        text: `“Andril is a very proactive designer. He is supportive, understands the requirement in detail, and approaches the job with lots of flexibility. I placed the order to him even though he didn't have any earning here on upwork, but I think I won't have taken a better choice than assigning work to Andril. Thank you Andril for being a...”`
     },
     {
         img: '/face5.svg',
         name: 'Med Supply',
         position: 'Pedal 2 Earn',
-        text: `"Very good work. Thank you."`    
+        text: `"Very happy working with Andrii again. I knew that he will do the illustration job I asked him to do very well. But this time, he even went out of his way to try doing extra for this job which was a short animation in my case. If you need a person who not only would do great work for you but go the extra mile to make sure it is deliv...”`    
     }
 ]
 
