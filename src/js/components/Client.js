@@ -2,6 +2,7 @@ import Comment from './Comment';
 import '../../css/main.css';
 import '../../css/client.css';
 import React from 'react';
+import {Link as Scroll} from 'react-scroll';
 
 const Client = () => {
     return (
@@ -24,7 +25,7 @@ const Client = () => {
                     <div className='outsidex inside-inline'>
                         <div className='float01 inside-first'>
                         <div><img src= {process.env.PUBLIC_URL + '/logo_1.svg'} className='inside inside-1' alt='logo'></img></div>
-                            <div className='inside inside-2 cl'><div className='cl_add2'></div><div className='cl_add Gilroy-500'>Add my company</div></div>
+                        <Scroll to='anketa' spy={true} smooth={true}><div className='inside inside-2 cl'><div className='cl_add2'></div><div className='cl_add Gilroy-500'>Add my company</div></div></Scroll>
                             <div><img src= {process.env.PUBLIC_URL + '/logo_2.svg'} className='inside inside-3' alt='logo'></img></div>
                         </div>
                         <div className='float01 inside-second'>

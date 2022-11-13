@@ -4,6 +4,7 @@ import '../../css/hero.css';
 import '../../css/hover.css';
 import '../../css/fonts.css';
 import React from 'react';
+import {Link as Scroll} from 'react-scroll';
 
 
 
@@ -23,7 +24,7 @@ const Hero = () => {
                     <br/>Develop your business together with us.
                 </div>
                 <div className='btn__body'>
-                    <button className='btn__started Montserrat-600 em-05'><div className='text__button d-flex'><div className='get__started Montserrat-500'>Get Started </div><div className='get__started arrow_img'><img className='btn__started__arrow' src={process.env.PUBLIC_URL + '/arrow-right.svg'} alt='arrow-right' /></div></div></button>
+                    <Scroll to='anketa' spy={true} smooth={true}><button className='btn__started Montserrat-600 em-05'><div className='text__button d-flex'><div className='get__started Montserrat-500'>Get Started </div><div className='get__started arrow_img'><img className='btn__started__arrow' src={process.env.PUBLIC_URL + '/arrow-right.svg'} alt='arrow-right' /></div></div></button></Scroll>
                 </div>
                 <div className='icon__mouser d-flex'>
                     <div><img src={process.env.PUBLIC_URL + '/mouser.jpg'} alt='img' /></div>
