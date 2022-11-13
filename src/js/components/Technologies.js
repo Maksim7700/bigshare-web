@@ -33,8 +33,8 @@ const Technologies = () => {
                 <div className='logo__type'>
                     <img className='logotype' src={process.env.PUBLIC_URL + '/logo_.svg'} alt={'logo'} />
                 </div>
-                <div className='middle__down__info__title l-h-72 Gilroy-700-bold'>
-                    Creating digital innovations with the<br /> latest <span id='green__text' className='Gilroy-700-bold'>technologies</span>
+                <div className='middle__down__info__title l-h-72 Gilroy-600'>
+                    Creating digital innovations with the<br /> latest <span id='green__text' className='Gilroy-600'>technologies</span>
                 </div>
                 <div className='middle_down__info__text l-h-24 Montserrat-400'>
                     Our team consists of enthusiastic technologists who love bringing real world solutions to our
@@ -46,7 +46,7 @@ const Technologies = () => {
                         <button onClick={getDesign} className={design ? 'Montserrat-500 em-05 middle__down__info__button e-h' : 'Montserrat-500 em-05 e-h'}>Design</button>
                     </div>
                     <div>
-                        <button onClick={getWeb} className={web ? 'Montserrat-500 middle__down__info__button em-05 e-h' : ' Montserrat-500 em-05 e-h'}>Web dev.</button>
+                        <button onClick={getWeb} className={web ? 'Montserrat-500 middle__down__info__button em-05 e-h' : 'Montserrat-500 em-05 e-h'}>Web dev.</button>
                     </div>
                     <div>
                         <button onClick={getMobile} className={mobile ? 'Montserrat-500 middle__down__info__button em-05 e-h' : 'Montserrat-500 em-05 e-h'}>Mobile dev.</button>

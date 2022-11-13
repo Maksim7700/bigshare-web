@@ -13,7 +13,7 @@ const Portfolio = () => {
         <div className='projects em-05'>
             <Container>
                 <div className='projects__head'>
-                    <div className='projects__title l-h-72 Gilroy-700-bold'>
+                    <div className='projects__title l-h-72 Gilroy-600'>
                         See some of our popular <span id='green__text'>portfolio</span>
                     </div>
                     <div className='projects__text l-h-24 Montserrat-400'>

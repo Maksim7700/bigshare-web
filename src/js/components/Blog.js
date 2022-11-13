@@ -12,7 +12,7 @@ const Blog = () => {
                 <div className='logo__type'>
                     <img className='logotype' src={process.env.PUBLIC_URL + '/logo_.svg'} alt={'logo'} />
                 </div>
-                <div className='blog__title l-h-72 Gilroy-700-bold'>
+                <div className='blog__title l-h-72 Gilroy-600'>
                     <span id='green__text'>Discover</span> insights and trends
                 </div>
                 <div className='em-02 blog__text l-h-24 Montserrat-400' >
