@@ -33,8 +33,8 @@ const Technologies = () => {
                 <div className='logo__type'>
                     <img className='logotype' src={process.env.PUBLIC_URL + '/logo_.svg'} alt={'logo'} />
                 </div>
-                <div className='middle__down__info__title l-h-72 Gilroy-600'>
-                    Creating digital innovations with the<br /> latest <span id='green__text' className='Gilroy-600'>technologies</span>
+                <div className='middle__down__info__title l-h-72 Gilroy-700'>
+                    Creating digital innovations with the<br /> latest <span id='green__text' className='Gilroy-700'>technologies</span>
                 </div>
                 <div className='middle_down__info__text l-h-24 Montserrat-400'>
                     Our team consists of enthusiastic technologists who love bringing real world solutions to our
