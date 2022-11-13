@@ -113,7 +113,7 @@ const Anketa = () => {
         {formDetails &&
           <div className='d-flex n-p'>
             <form onSubmit={handleSubmit(onSubmit)}>
-              <div className='d-flex w-1340'>
+              <div className='d-flex w-1430'>
                 <input className={`wdd Montserrat-400 ${errors.email ? 'error' : 'input-big-share'}`} type="text" placeholder="Your email" {...register("email", { required: true, pattern: /^\S+@\S+$/i })} />
                 <input className='wdd Montserrat-400 input-big-share' type="text" placeholder="Your name (Oprional)" {...register("name", { required: false, maxLength: 100 })} />
                 <input className='wdd Montserrat-400 input-big-share' type="tel" placeholder="Your phone (Optional)" {...register("phone", { required: false, minLength: 6, maxLength: 12 })} />
