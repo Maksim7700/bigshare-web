@@ -1,17 +1,14 @@
 
 .header__info {
-    font-family: 'Gilroy-Light', sans-serif;
     font-size: 72px;
     color: white;
     font-weight: 700;
 }
 
 .gilroy{
-    font-family: 'Gilroy-Light', sans-serif;
 }
 
 .header__second_info {
-    font-family: 'Gilroy-Light', sans-serif;
     font-size: 72px;
     color: #1A9D63;
     font-weight: 700;
@@ -20,7 +17,6 @@
 
 
 .header__third_info {
-    font-family: Montserrat;
     font-size: 18px;
     color: #F8F8F8;
     padding-top: 40px;
@@ -67,7 +63,6 @@ line-height: 0px;
 .text__scroll {
     padding-top: 20px;
     padding-left: 20px;
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
 }
@@ -107,6 +102,8 @@ line-height: 0px;
     }
 
     .header__third_info {
+        font-family: Montserrat-Medium !important;
+        font-weight: 500;
         font-size: 16px;
         line-height: 30px;
         width: 100%;
@@ -132,6 +129,79 @@ line-height: 0px;
 
     .line__line {
         display: none !important;
+    }
+
+    .middle_info {
+        width: 344px !important;
+    }
+
+    .middle_block {
+        width: 343px !important;
+        margin-right: 13px !important;
+    }
+
+    .scrolling-wrapper {
+        width: 343px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space: nowrap;
+    }
+
+    .middle__down__info__buttons .last {
+        margin-right: 0px;
+    }
+
+    .middle__down__info__buttons {
+        padding-top: 32px !important;
+    }
+
+    .list__technologies{
+        padding-top: 24px !important;
+    }
+
+    .block {
+        width: 165px !important;
+        height: 198px !important;
+        margin-top: 13px !important;
+    }
+
+    .display {
+        display: block !important;
+    }
+
+    .last-item {
+        margin-left: 89px !important;
+        position:absolute;
+    }
+
+    .middle__down__info {
+        margin-top: 106px !important;
+        height: 1131px !important;
+    }
+
+    .middle__down__info__title {
+        padding-top: 90px !important;
+    }
+
+    .logo__type {
+        position: absolute;
+        background: url('../../public/logo_mobile.svg') !important;
+        height: 100px !important;
+        width: 40px !important;
+        margin-top: -50px;
+    }
+
+    .text__title {
+        padding-left: 12px;
+        font-size: 30px !important;
+    }
+
+    .client {
+        margin-top: 40px !important;
+    }
+
+    .one {
+        width: 226px !important;
     }
 
 }

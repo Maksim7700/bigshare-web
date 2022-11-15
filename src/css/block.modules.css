@@ -14,12 +14,10 @@
     padding-top: 24px;
     font-size: 24px;
     color: #111714;
-    font-family: 'Gilroy-Light', sans-serif;
 }
 
 .block__text {
     color: #393939;
-    font-family: Montserrat;
 }
 
 
@@ -55,4 +53,26 @@
     .main__dobule__block {
         display: block !important;
     }
+
+    .double__middle_block{
+        width: 343px !important;
+    }
+
+    .double__block_middle{
+        width: 343px !important;
+    }
+    .double__block__text{
+        width: 311px !important;
+    }
+
+    .middle__down__info__title{
+        font-size: 30px !important;
+        line-height: 130% !important;
+    }
+
+    .middle_down__info__text {
+        width: 343px !important;
+        padding-top: 16px !important;
+    }
 }
+

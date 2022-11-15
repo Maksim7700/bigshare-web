@@ -8,7 +8,6 @@
   color: black !important;
   background-color: #F8FBFF !important;
   font-weight: 500;
-  font-family: 'Gilroy-Light', sans-serif;
   margin-bottom: 16px;
 }
 
@@ -112,7 +111,6 @@ input:not(:placeholder-shown) {
 }
 
 .submit {
-font-family: 'Montserrat';
 font-style: normal;
 font-size: 16px;
 line-height: 150%;
@@ -199,18 +197,15 @@ margin-top: 16px;
 
 input[type="tel"] {
   padding-left: 16px;
-  font-family: 'Montserrat';
   font-weight: 400;
 }
 
 input[type="text"] {
   padding-left: 16px;
-  font-family: 'Montserrat';
   font-weight: 400;
 }
 
 .title {
-  font-family: 'Gilroy-Light', sans-serif;
   font-size: 20px;
   color: #111714;
   font-weight: 500;

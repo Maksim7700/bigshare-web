@@ -1,6 +1,5 @@
 .blog__title{
     padding-top: 90px;
-    font-family: 'Gilroy-Light', sans-serif;
     font-size: 56px;
     font-weight: 700;
     color: white;
@@ -10,7 +9,6 @@
     padding-top: 24px;
     width: 1076px;
     color: #C8C8C8;
-    font-family: Montserrat;
     font-weight: 400;
 }
 
@@ -36,7 +34,6 @@
 }
 
 .first__blog{
-    font-family: 'Gilroy-Light', sans-serif;
     padding-top: 66px;
     padding-left: 64px;
     padding-bottom: 64px;
@@ -59,7 +56,6 @@
 }
 
 .second__blog{
-    font-family: 'Gilroy-Light', sans-serif;
     padding-top: 46px;
     padding-left: 10%;
 }
@@ -67,7 +63,6 @@
 .view{
     color: white;
     font-size: 24px;
-    font-family: 'Gilroy-Light', sans-serif;
     height: 93px;
     background: #061019;
     text-align: center;
@@ -103,4 +98,8 @@
     display: inline-block;
     padding: 5px;
     border-radius: 1.5px;
+  }
+
+  .logo__type {
+    background: url('../../public/logo_.svg');
   }
