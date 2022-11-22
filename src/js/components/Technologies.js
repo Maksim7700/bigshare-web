@@ -34,7 +34,9 @@ const Technologies = () => {
                     <div className='loggo'/>
                 </div>
                 <div className='middle__down__info__title l-h-72 Gilroy-700'>
+                    <div className='info__title_mobile'>
                     Creating digital innovations with the<br /> latest <span id='green__text' className='Gilroy-700'>technologies</span>
+                    </div>
                 </div>
                 <div className='middle_down__info__text l-h-24 Montserrat-400'>
                     Our team consists of enthusiastic technologists who love bringing real world solutions to our
