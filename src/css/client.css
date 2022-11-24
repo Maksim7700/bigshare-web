@@ -31,12 +31,12 @@
 }
 
 .icon {
-    position: relative;
+    position: absolute;
     margin-left: -182px;
 }
 
 .outside{
-    position: relative;
+    position: absolute;
 }
 
 .float01 {
