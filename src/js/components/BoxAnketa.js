@@ -10,7 +10,7 @@ const BoxAnketa = (props) => {
   return (
     <div onClick={clicks} className={`${classNames ? classNames[0] : ''} block_anketa em-05`}>
       <div className='hover_icon h-100'>
-        <div className={`${props?.className} p-t-119`}></div>
+        <div className={`${props?.className} icon-ank p-t-119`}></div>
         <div className='title Gilroy-500'>{props.title}</div>
       </div>
     </div>

@@ -30,6 +30,31 @@
     height: 204px;
 }
 
+.i-8 {
+    height: 204px;
+    width: 204px;
+    
+}
+.i-9 {
+    height: 204px;
+    width: 204px;
+    margin-top: 228px;
+}
+.i-10 {
+    height: 204px;
+    width: 204px;
+    margin-top: 458px;
+}
+.i-11 {
+    height: 204px;
+    width: 204px;
+    margin-top: 684px;
+}
+.i-12 {
+    height: 204px;
+    width: 204px;
+    margin-top: 912px;
+}
 .icon {
     position: absolute;
     margin-left: -182px;
@@ -89,22 +114,18 @@
 
 .inside-9 {
     margin-left: -24px;
-    margin-top: 228px;
 }
 
 .inside-10 {
     margin-left: -24px;
-    margin-top: 458px;
 }
 
 .inside-11 {
     margin-left: -24px;
-    margin-top: 684px;
 }
 
 .inside-12 {
     margin-left: -24px;
-    margin-top: 912px;
 }
 
 .cl {

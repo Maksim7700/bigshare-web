@@ -23,16 +23,16 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className='projects__'>
-                    <div className='d-flex'>
-                        <PortfolioBlock right={false} leftImg={'/bike-1.png'} rightImg={'/bike-2.png'}/>
-                        <PortfolioBlock right={true} leftImg={'/accebody-1.png'} rightImg={'/accebody-2.png'} />
+                    <div className='d-flex d-block-mob'>
+                        <PortfolioBlock className="portfolio-1" right={false} leftImg={'/bike-1.png'} rightImg={'/bike-2.png'}/>
+                        <PortfolioBlock className="portfolio-2" right={true} leftImg={'/accebody-1.png'} rightImg={'/accebody-2.png'} />
                     </div>
-                    <div className='d-flex'>
-                        <PortfolioBlock right={false} center={true} leftImg={'/car-1.png'} rightImg={'/car-2.png'} />
-                        <PortfolioBlock right={true} center={true} leftImg={'/buggito-1.png'} rightImg={'/buggito-2.png'} />
+                    <div className='d-flex d-block-mob'>
+                        <PortfolioBlock className="portfolio-3" right={false} center={true} leftImg={'/car-1.png'} rightImg={'/car-2.png'} />
+                        <PortfolioBlock className="portfolio-4" right={true} center={true} leftImg={'/buggito-1.png'} rightImg={'/buggito-2.png'} />
                     </div>
-                    <div className='d-flex'>
-                        <PortfolioBlock right={false} leftImg={'/beoon-1.png'} rightImg={'/beoon-2.png'} />
+                    <div className='d-flex d-block-mob'>
+                        <PortfolioBlock className="portfolio-5" right={false} leftImg={'/beoon-1.png'} rightImg={'/beoon-2.png'} />
                         <AddPortfolio />
                     </div>
                 </div>

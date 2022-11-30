@@ -24,7 +24,7 @@ const Blog = () => {
                     <BlogBlock logo='/objects.svg' alt='objects' />
                 </div>
                 <div className='Gilroy-500 view blog_ l-h-24 f-w-500'>
-                    <p>View all blog</p>
+                    <p className='view_all_blog'>View all blog</p>
                 </div>
                 <div className='buttom-pad'></div>
             </Container>

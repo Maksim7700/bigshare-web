@@ -4,7 +4,7 @@ import React from 'react';
 
 const BlogBlock = (props) => {
     return (
-        <div className='blog__block em-02'>
+        <div className='blog__block d-block-mob em-02'>
             <div className='first__blog'>
                 <div className='Gilroy-500 first__title f-w-500 l-h-24'>
                     JavaScript
@@ -19,7 +19,7 @@ const BlogBlock = (props) => {
                 </div>
             </div>
             <div className='second__blog'>
-                <div><img src={process.env.PUBLIC_URL + props.logo} alt={props.alt} /></div>
+                <div><img id='second-blog-img' src={process.env.PUBLIC_URL + props.logo} alt={props.alt} /></div>
             </div>
         </div>
     );

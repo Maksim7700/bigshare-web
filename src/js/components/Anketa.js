@@ -89,7 +89,7 @@ const Anketa = () => {
         {formDetails && <p>Thanks. We just need a few details about you.</p>}
         {!service && !size && !time && !budget && !formDetails && <p>Thanks. We will contact you soon.</p>}
       </div>
-      <div className='d-flex'>
+      <div className='d-flex d-block-mob temp'>
         {service && <><BoxAnketa className='complex_service_anketa' getBoxClick={boxClick} title='Complex of services'></BoxAnketa>
           <BoxAnketa getBoxClick={boxClick} className='design_anketa' title='Design'></BoxAnketa>
           <BoxAnketa getBoxClick={boxClick} className='web_development_anketa' title='Web development'></BoxAnketa>

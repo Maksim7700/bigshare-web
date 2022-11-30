@@ -9,10 +9,10 @@ const PortfolioBlock = (props) => {
     return (
         <div className={`b-n em-05 projects__project ${isRight} d-flex w-706`}>
             <div className='first'>
-                <img src={process.env.PUBLIC_URL + props.leftImg} alt='bike' />
+                <img id={`${props.className}-left`} src={process.env.PUBLIC_URL + props.leftImg} alt='bike' />
             </div>
             <div className={`second ${isCenter}`}>
-                <img src={process.env.PUBLIC_URL + props.rightImg} alt='bike' />
+                <img id={`${props.className}-right`} src={process.env.PUBLIC_URL + props.rightImg} alt='bike' />
             </div>
         </div>
     );
