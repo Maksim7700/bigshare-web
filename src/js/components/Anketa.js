@@ -91,29 +91,29 @@ const Anketa = () => {
       </div>
       <div className='d-flex d-block-mob temp'>
         {service && <><BoxAnketa className='complex_service_anketa' getBoxClick={boxClick} title='Complex of services'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='design_anketa' title='Design'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='web_development_anketa' title='Web development'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='mobile_development_anketa' title='Mobile development'></BoxAnketa>
-          <BoxAnketa className='n-r other_anketa' getBoxClick={boxClick} title='Other'></BoxAnketa></>}
+          <BoxAnketa getBoxClick={boxClick} number='box-2' className='design_anketa' title='Design'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} number='box-3' className='web_development_anketa' title='Web development'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} number='box-4' className='mobile_development_anketa' title='Mobile development'></BoxAnketa>
+          <BoxAnketa className='n-r other_anketa' number='box-5' getBoxClick={boxClick} title='Other'></BoxAnketa></>}
         {size && <><BoxAnketa getBoxClick={boxClick} className='xs' title='XS'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='s' title='S'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='m' title='M'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='l' title='L'></BoxAnketa>
-          <BoxAnketa className='n-r xl' getBoxClick={boxClick} title='XL'></BoxAnketa></>}
+          <BoxAnketa getBoxClick={boxClick} number='box-2' className='s' title='S'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} number='box-3' className='m' title='M'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} number='box-4' className='l' title='L'></BoxAnketa>
+          <BoxAnketa className='n-r xl' number='box-5' getBoxClick={boxClick} title='XL'></BoxAnketa></>}
         {time && <><BoxAnketa getBoxClick={boxClick} className='less_mon' title='Less than 1 month'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='m_1_2_mon' title='1-2 months'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='m_2_4_mon' title='2-4 months'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='m_4_6_mon' title='4-6 months'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='n-r more_6_mon' title='More than 6 months'></BoxAnketa></>}
+          <BoxAnketa getBoxClick={boxClick} number='box-2' className='m_1_2_mon' title='1-2 months'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} number='box-3' className='m_2_4_mon' title='2-4 months'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} number='box-4' className='m_4_6_mon' title='4-6 months'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} number='box-5' className='n-r more_6_mon' title='More than 6 months'></BoxAnketa></>}
         {budget && <><BoxAnketa getBoxClick={boxClick} className='less_1k' title='Less than $1k'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='d_1_3k' title='$1k-3k'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='d_3_6k' title='$3k-6k'></BoxAnketa>
-          <BoxAnketa getBoxClick={boxClick} className='d_6_10k' title='$6k-10k'></BoxAnketa>
-          <BoxAnketa className='n-r more_10k' getBoxClick={boxClick} title='More than $10k'></BoxAnketa></>}
+          <BoxAnketa getBoxClick={boxClick} number='box-2' className='d_1_3k' title='$1k-3k'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} number='box-3' className='d_3_6k' title='$3k-6k'></BoxAnketa>
+          <BoxAnketa getBoxClick={boxClick} number='box-4' className='d_6_10k' title='$6k-10k'></BoxAnketa>
+          <BoxAnketa className='n-r more_10k' number='box-5' getBoxClick={boxClick} title='More than $10k'></BoxAnketa></>}
         {formDetails &&
           <div className='d-flex n-p'>
             <form onSubmit={handleSubmit(onSubmit)}>
-              <div className='d-flex w-1430'>
+              <div className='mob-v d-flex w-1430'>
                 <input className={`wdd Montserrat-400 ${errors.email ? 'error' : 'input-big-share'}`} type="text" placeholder="Your email" {...register("email", { required: true, pattern: /^\S+@\S+$/i })} />
                 <input className='wdd Montserrat-400 input-big-share' type="text" placeholder="Your name (Oprional)" {...register("name", { required: false, maxLength: 100 })} />
                 <input className='wdd Montserrat-400 input-big-share' type="tel" placeholder="Your phone (Optional)" {...register("phone", { required: false, minLength: 6, maxLength: 12 })} />
@@ -126,8 +126,8 @@ const Anketa = () => {
           </div>}
       </div>
       {!formDetails && <div className='center n-p'>
-        <div className={`${service ? 'm-39' : ''}  d-flex for-center`}>
-          {(!service && !finishFormValue) && <><div onClick={backClick} className='back-button-click'><div className='back-button-button float-right Montserrat-400'>Back</div><div className='ar-left arrow left float-right'></div></div></>}
+        <div className={`${service ? 'm-39' : ''}  d-flex for-center n-c`}>
+          {/* {(!service && !finishFormValue) && <><div onClick={backClick} className='back-button-click'><div className='back-button-button float-right Montserrat-400'>Back</div><div className='ar-left arrow left float-right'></div></div></>} */}
 
           {!finishFormValue && <div className={`bar d-flex`}>
             {/* color w-55 */}

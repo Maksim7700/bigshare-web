@@ -626,5 +626,93 @@ line-height: 0px;
 
     .temp {
         height: 600px !important;
+        width: 343px;
+        margin: 0 auto;
     }
+
+    .box-2 {
+        margin-left: 178px !important;
+    }
+
+    .box-3 {
+        margin-top: 211px !important;
+    }
+
+    .box-4 {
+        margin-top: 211px;
+        margin-left: 178px !important;
+    }
+
+    .box-5 {
+        margin-top: 419px !important;
+        margin-left: 89px !important;
+    }
+
+    .bar {
+        width: 165px !important;
+    }
+    .w-55 {
+        width: 43px !important;
+    }
+
+    .for-center {
+        width: 165px !important;
+        margin: 0 auto;
+    }
+
+    .n-c {
+        margin-left: auto !important;
+
+    }
+
+    .color-step {
+        width: 88px !important;
+        margin: 0 auto !important;
+    }
+
+    .back-button-click {
+        padding-right: 0 !important;
+        margin-left: -50px !important;
+        margin-top: 58px;
+        }
+
+        .mob-v {
+            width: 343px !important;
+            display: block !important;
+        }
+
+        .wdd {
+            height: 48px !important;
+            margin-bottom: 12px !important;
+        }
+
+        .input-big-share {
+            width: 323px !important;
+
+        }
+
+        .submit {
+            font-size: 16px !important;
+            width: 261px !important;
+            height: 48px !important;
+        }
+
+        .ar-left {
+            margin-right: 5px !important;
+        }
+        .first-arrow  {
+        visibility: hidden;
+        }
+
+        .view {
+            width: 371px !important;
+            margin: 0 auto 13px auto !important;
+            font-size: 16px !important;
+            height: 48px !important;
+        }
+
+        .footer-2 {
+            display: block !important;
+            justify-content: none !important;
+        }
 }
