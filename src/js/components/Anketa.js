@@ -72,9 +72,9 @@ const Anketa = () => {
     getNextPage();
   }
 
-  const backClick = () => {
-    getPreviousPage();
-  }
+  // const backClick = () => {
+  //   getPreviousPage();
+  // }
 
   return (
     <Container>
