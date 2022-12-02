@@ -72,9 +72,9 @@ const Anketa = () => {
     getNextPage();
   }
 
-  // const backClick = () => {
-  //   getPreviousPage();
-  // }
+  const backClick = () => {
+    getPreviousPage();
+  }
 
   return (
     <Container>
@@ -127,7 +127,7 @@ const Anketa = () => {
       </div>
       {!formDetails && <div className='center n-p'>
         <div className={`${service ? 'm-39' : ''}  d-flex for-center n-c`}>
-          {/* {(!service && !finishFormValue) && <><div onClick={backClick} className='back-button-click'><div className='back-button-button float-right Montserrat-400'>Back</div><div className='ar-left arrow left float-right'></div></div></>} */}
+          {(!service && !finishFormValue) && <><div onClick={backClick} className='back-button-click'><div className='back-button-button float-right Montserrat-400'>Back</div><div className='ar-left arrow left float-right'></div></div></>}
 
           {!finishFormValue && <div className={`bar d-flex`}>
             {/* color w-55 */}
