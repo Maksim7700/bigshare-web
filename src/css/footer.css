@@ -57,8 +57,19 @@
   margin-left: 8px;
 }
 
-.location:hover {
+.hero-logo:hover .location{
+  margin-top: 5px;
+  margin-left: 10px;
   color: #0360B2;
+}
+
+.location_img {
+  content: url('../../public/location.svg');
+}
+
+.hero-logo:hover .location_img {
+  margin-left: 2px;
+  content: url('../../public/map_hover.svg');
 }
 
 .c-8 {

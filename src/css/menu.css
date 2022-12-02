@@ -102,7 +102,7 @@ li {
     .container {
         margin: 0 16px;
     }
-    body {
-        background-image: url("/public/back_mobile.jpg") !important;
+    body {  
+        background-image: url("/public/background-header.png") !important;
     }
 }

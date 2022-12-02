@@ -39,7 +39,7 @@ const Menu = () => {
                     </li>
                     <li className="nav-list__item em-05"><Link className="nav-list__link" to={'/blog'}>Blog</Link></li>
                 </ul> */}
-                <Scroll to='anketa' spy={true} smooth={true}><div className="nav__button em-05 Montserrat-500">Contact us</div></Scroll>
+                <Scroll to='anketa' spy={true} smooth={true}><div className="nav__button em-05 Montserrat-500">Contact Us</div></Scroll>
             </Navigate>
         </header>
     );

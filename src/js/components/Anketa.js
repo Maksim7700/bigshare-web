@@ -120,7 +120,7 @@ const Anketa = () => {
                 <input className='wdd Montserrat-400 input-big-share' type="text" placeholder="Your company (Optional)" {...register("company", { required: false, maxLength: 100 })} />
                 <input className='wdd Montserrat-400 input-big-share n-r' type="text" placeholder="Your comment (Optional)" {...register("comment", {})} />
               </div>
-              <input className='float-right submit Montserrat-500' type="submit" value='Create with BigShare' />
+              <input className='float-right submit Montserrat-600' type="submit" value='Create with BigShare' />
               <div className='back-button-form' onClick={getPreviousPage}><div className='back-button-button float-right Montserrat-400'>Back</div><div className='ar-left arrow left float-right'></div></div>
             </form>
           </div>}

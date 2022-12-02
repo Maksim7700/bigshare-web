@@ -609,6 +609,7 @@ line-height: 0px;
     .text-anketa {
         width: 343px !important;
         margin: 0 auto !important;
+        padding-left: 0 !important;
     }
 
     .block_anketa {

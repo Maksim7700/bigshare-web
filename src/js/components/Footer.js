@@ -24,8 +24,7 @@ const Footer = () => {
                 <Navigate className='nav footer-2'><div aria-current="page">
 
                     <div className={'hero-logo d-flex'}>
-                        <div className={'logo white'}><img src={process.env.PUBLIC_URL + '/location.svg'}
-                            alt="bigshare" /></div> <a className='location Montserrat-400' href="https://www.google.com/maps/place/Akademika+Andriya+Sakharova+St,+L'viv,+L'vivs'ka+oblast,+79000/@49.824909,24.0091385,17z/data=!3m1!4b1!4m5!3m4!1s0x473ae7881abf8e6f:0x6803f4eb256bd70f!8m2!3d49.824909!4d24.0113272">Sakharova street, Lviv, Ukraine</a></div>
+                        <div className={'logo white hover_location'}><div className='location_img'></div></div> <a className='location Montserrat-400' href="https://www.google.com/maps/place/Akademika+Andriya+Sakharova+St,+L'viv,+L'vivs'ka+oblast,+79000/@49.824909,24.0091385,17z/data=!3m1!4b1!4m5!3m4!1s0x473ae7881abf8e6f:0x6803f4eb256bd70f!8m2!3d49.824909!4d24.0113272">Sakharova street, Lviv, Ukraine</a></div>
 
                 </div>
                     <ul className="nav-list">
