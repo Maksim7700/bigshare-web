@@ -717,3 +717,7 @@ line-height: 0px;
             justify-content: none !important;
         }
 }
+
+.ar-left {
+    margin-right: 4px;
+}

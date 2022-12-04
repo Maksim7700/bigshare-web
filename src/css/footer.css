@@ -1,7 +1,7 @@
 .footer {
-  padding-top: 81px !important;
+  padding-top: 64px !important;
   background-color: #101A24 !important;
-  padding-bottom: 65px;
+  padding-bottom: 60px;
 }
 
 .footer-2{
@@ -18,11 +18,11 @@
 
 
 .social {
-  padding-left: 16px;
+  margin-left: 16px;
 }
 
 .linked-in::before {
-  content: url('../../public/linked_in.svg');
+  content: url('../../public/linkedin.svg');
 }
 
 .linked-in:hover::before {
@@ -31,7 +31,7 @@
 }
 
 .behance::before {
-  content: url('../../public/B_E.svg');
+  content: url('../../public/behance.svg');
 }
 
 .behance:hover::before {
@@ -58,8 +58,6 @@
 }
 
 .hero-logo:hover .location{
-  margin-top: 5px;
-  margin-left: 10px;
   color: #0360B2;
 }
 
@@ -68,8 +66,7 @@
 }
 
 .hero-logo:hover .location_img {
-  margin-left: 2px;
-  content: url('../../public/map_hover.svg');
+  content: url('../../public/location_hover.svg');
 }
 
 .c-8 {
